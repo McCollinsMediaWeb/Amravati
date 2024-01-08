@@ -906,3 +906,70 @@ opacity: 0.6;
 .DetBox1Mrg{
   margin-top: 60px;
 }
+.CatSeForm{
+  background-color: #EA931A;
+}
+.MuiFormControl-root {
+  width: 100% !important;
+}
+.contactFormR1 {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.contactFormR1 .row .col-md-6 {
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+.MuiOutlinedInput-notchedOutline {
+  border-color: #000 !important;
+}
+.Ct11 {
+  font-size: 30px;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 15px;
+  margin: 0 auto 0px;
+  text-transform: uppercase;
+}
+.Ct22{
+  padding-bottom: 30px;
+}
+.T7 {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 16px;
+  letter-spacing: 2px;
+  transition: .4s;
+  border: 2px solid transparent;
+  display: inline-block;
+  border-radius: 25px;
+  background-color: #9F1917;
+  min-width: 195px;
+  font-weight: 400;
+  position: relative;
+  padding: 10px 35px 10px 15px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.T7::after {
+  content: "";
+  height: 22px;
+  width: 22px;
+  background-size: 100% 100%;
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  background-image: url(../public/rightarrow.png);
+}
+.bg5{
+  background-color: #9F1917;
+}
+.PromotionalGrids .row{
+  margin: 0 -10px;
+}
+.PromotionalGrids .col-md-4{
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
