@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 export default function PageHeader(props) {
 
   return (
@@ -9,8 +8,10 @@ export default function PageHeader(props) {
       <section>
         <div className="PageHeaderWrap">
             <Image
-                src="/hero.jpg"
-                layout="fill"
+                src="/u.jpg"
+                layout="responsive"
+                width={"1440"}
+                height={"535"}
                 priority={true}
                 className="MainBanner"
             />

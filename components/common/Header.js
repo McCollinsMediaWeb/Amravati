@@ -101,7 +101,6 @@ export default function Header() {
             )}
             <div className="MenuIconsWrap">
               <div className="HMenuItems">
-                {isDesktop && (
                   <>
                     <div className="HMenuItem">
                       <a href="#">
@@ -114,7 +113,6 @@ export default function Header() {
                       </a>
                     </div>
                   </>
-                )}
                 <div className="HMenuItem" onClick={() => setOpen(true)}>
                   <div className="hederMenuIcon MenuClickActivator">&nbsp;</div>
                 </div>
@@ -156,32 +154,32 @@ export default function Header() {
             </div>
             <div className="SideNavLinksRow" onClick={() => setOpen(false)}>
               <Link
-                href={"/"}
-                className={router.pathname == "/" ? "link1 active" : "link1"}
+                href={"/aboutus"}
+                className={router.pathname == "/aboutus" ? "link1 active" : "link1"}
               >
                 About Us
               </Link>
             </div>
             <div className="SideNavLinksRow" onClick={() => setOpen(false)}>
               <Link
-                href={"/"}
-                className={router.pathname == "/" ? "link1 active" : "link1"}
+                href={"/catering"}
+                className={router.pathname == "/catering" ? "link1 active" : "link1"}
               >
                 Catering Services
               </Link>
             </div>
             <div className="SideNavLinksRow" onClick={() => setOpen(false)}>
               <Link
-                href={"/"}
-                className={router.pathname == "/" ? "link1 active" : "link1"}
+                href={"/offers"}
+                className={router.pathname == "/offers" ? "link1 active" : "link1"}
               >
                 Our Offers
               </Link>
             </div>
             <div className="SideNavLinksRow" onClick={() => setOpen(false)}>
               <Link
-                href={"/"}
-                className={router.pathname == "/" ? "link1 active" : "link1"}
+                href={"/contactus"}
+                className={router.pathname == "/contactus" ? "link1 active" : "link1"}
               >
                 Contact us
               </Link>

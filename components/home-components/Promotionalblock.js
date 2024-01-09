@@ -1,18 +1,15 @@
 import Image from "next/image";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 import React,{useEffect} from "react";
 export default function PromotionalBlock() {
-    useEffect(() => {
-        AOS.init();
-      }, [])
+
   return (
     <>
       <section className="bg1 promotionalBlock">
         <div className="container">
           <div className="row">
             <div className="col-md-4">
-              <div className="PromotionalGrid"  data-aos="fade-left" data-aos-duration="800">
+              <div className="PromotionalGrid">
                 <Image
                   src="/p1.jpg"
                   layout="responsive"
@@ -29,7 +26,7 @@ export default function PromotionalBlock() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="PromotionalGrid"  data-aos="fade-up" data-aos-duration="800">
+              <div className="PromotionalGrid"  >
                 <Image
                   src="/p2.jpg"
                   layout="responsive"
@@ -47,7 +44,7 @@ Special</div>
               </div>
             </div>
             <div className="col-md-4">
-              <div className="PromotionalGrid"  data-aos="fade-right" data-aos-duration="800">
+              <div className="PromotionalGrid"  >
                 <Image
                   src="/p3.jpg"
                   layout="responsive"

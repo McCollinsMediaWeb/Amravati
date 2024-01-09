@@ -1,14 +1,11 @@
 import Image from "next/image";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 import React,{useEffect} from "react";
 export default function PromotionalColumn(props) {
-    useEffect(() => {
-        AOS.init();
-      }, [])
+    
   return (
     <>
-      <div className="PromotionalGrid"  data-aos="fade-up" data-aos-duration="800">
+      <div className="PromotionalGrid"  >
                 <Image
                   src={props.PrImage}
                   layout="responsive"

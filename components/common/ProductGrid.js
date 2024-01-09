@@ -1,16 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 import React,{useEffect} from "react";
 export default function (props) {
-  useEffect(() => {
-    AOS.init();
-  }, [])
+ 
   return (
     <>
       <div>
-        <div className="ProductGrid" data-aos="fade-up" data-aos-duration="800">
+        <div className="ProductGrid" >
           <div className="ProductGridImage">
             <Image
               src={props.imageSrc}

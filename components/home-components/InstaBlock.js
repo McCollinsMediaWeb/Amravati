@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 export default function InstaBlock() {
@@ -24,9 +23,7 @@ export default function InstaBlock() {
       },
     ],
   };
-  useEffect(() => {
-    AOS.init();
-  }, []);
+  
   return (
     <>
       <section className="bg4 pd-common HomeGallery">
@@ -36,8 +33,7 @@ export default function InstaBlock() {
               <div className="col-md-5">
                 <div
                   class="InstraaLftBox"
-                  data-aos="fade-up"
-                  data-aos-duration="800"
+                  
                 >
                   <div class="InstraaLftBoxL">
                     <span class="InstaIcon">&nbsp;</span>
@@ -48,8 +44,7 @@ export default function InstaBlock() {
               <div className="col-md-7">
                 <div
                   className="InT1"
-                  data-aos="fade-up"
-                  data-aos-duration="800"
+                  
                 >
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
@@ -59,8 +54,7 @@ export default function InstaBlock() {
           </div>
           <div
             className="GallerySlider1 InstaGallery"
-            data-aos="flip-up"
-            data-aos-duration="800"
+            
           >
             <Slider {...settings}>
               <div>

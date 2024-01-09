@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 export default function Testimonials() {
@@ -24,9 +23,7 @@ export default function Testimonials() {
       },
     ],
   };
-  useEffect(() => {
-    AOS.init();
-  }, []);
+  
   return (
     <>
       <section className="bg3 pd-common HomeGallery TestimonialBoxWrap">
@@ -34,10 +31,8 @@ export default function Testimonials() {
           <div className="TestimonialHeader">
             <div className="row align-items-center">
               <div className="col-md-5">
-                <div className="RT2" data-aos="fade-up"
-                  data-aos-duration="800">Food Lovers Feedback</div>
-                <div className="RT3" data-aos="fade-left"
-                  data-aos-duration="800">
+                <div className="RT2" >Food Lovers Feedback</div>
+                <div className="RT3" >
                   <div class="StarItems">
                     <div class="StarItem">&nbsp;</div>
                     <div class="StarItem">&nbsp;</div>
@@ -48,8 +43,7 @@ export default function Testimonials() {
                 </div>
               </div>
               <div className="col-md-7">
-                <div class="RT1" data-aos="fade-up"
-                  data-aos-duration="800">
+                <div class="RT1" >
                   Words from Our Happy Customers: Discover the Delight of Dining
                   with Us! At Amaravathi our passion is not only to serve
                   exquisite dishes but to create unforgettable dining
@@ -60,8 +54,7 @@ export default function Testimonials() {
           </div>
           <div
             className="GallerySlider1 TestimonilSlider"
-            data-aos="flip-up"
-            data-aos-duration="800"
+           
           >
             <Slider {...settings}>
               <div>

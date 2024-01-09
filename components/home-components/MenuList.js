@@ -1,6 +1,5 @@
 
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 import React, { useEffect } from "react";
 import Slider from "react-slick";
 import ProductGrid from "../common/ProductGrid";
@@ -24,31 +23,26 @@ export default function MenuList() {
       },
     ],
   };
-  useEffect(() => {
-    AOS.init();
-  }, []);
+  
   return (
     <>
       <section className="bg1 MenuList pd-common">
         <div className="container">
           <div
             className="T1 text-center color-fff"
-            data-aos="fade-up"
-            data-aos-duration="800"
+            
           >
             Trending Now In Town
           </div>
           <div
             className="T2 text-center color-fff"
-            data-aos="fade-up"
-            data-aos-duration="800"
+            
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit amet,
             consectetur adipiscing elit, sed do{" "}
           </div>
-          <div className="slider1" data-aos="flip-up"
-            data-aos-duration="800">
+          <div className="slider1">
             <Slider {...settings}>
                 <div>
                     <ProductGrid imageSrc="/m1.jpg" menuTitle="Chicken Biriyani" menuPrice="150"/>

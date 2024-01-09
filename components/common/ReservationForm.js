@@ -9,17 +9,14 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { TextareaAutosize } from "@mui/base/TextareaAutosize";
 import { useState, useEffect } from "react";
 import useMediaQuery from "@/hooks/useMediaQuery";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 const CateringForm = (props) => {
   console.log();
   const color = "#000";
   const [age, setAge] = React.useState("");
   const isDesktop = useMediaQuery("(min-width: 960px)");
   const [inputSize, SetInputSize] = useState("medium");
-  useEffect(() => {
-    AOS.init();
-  }, []);
+  
   useEffect(() => {
     if (isDesktop) {
       SetInputSize("medium");

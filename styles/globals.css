@@ -869,7 +869,7 @@ display: none !important;
 }
 .PageHeaderWrap{
   position: relative;
-  height: 70vh;
+
 }
 .PageHeaderContent{
   position: absolute;
@@ -1031,4 +1031,309 @@ background-image: url(../public/cwhatsapp.png);
 }
 .Cicon.location{
   background-image: url(../public/clocation.png);
+}
+.halo-sticky-toolbar-mobile {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 0 9px #0000001f;
+  transition: transform .6s;
+  background: #fff;
+  border: 1px solid #fff;
+}
+.bottom-bar {
+  padding: 3px 15px;
+  min-height: 60px;
+}
+.bottom-bar--list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  align-items: center;
+}
+.bottom-bar--list li {
+  position: relative;
+}
+.bottom-bar--list li > a {
+  padding: 7px 2px;
+  display: block;
+  pointer-events: auto;
+  text-align: center;
+  color: #1d1d1b;
+}
+.FtrIconH {
+  width: 25px;
+  height: 25px;
+  background-size: 100% 100%;
+  margin: 0 auto;
+}
+.FtrIconH.home{
+  background-image: url(../public/fhome.png);
+}
+.FtrIconH.reserve{
+background-image: url(../public/freservenow.png);
+}
+.FtrIconH.order{
+background-image: url(../public/fordernow.png);
+}
+.FtrIconH.whatsapp{
+  background-image: url(../public/fwhatsapp.png);
+}
+.FtrIconH.call{
+background-image: url(../public/fcall.png);
+}
+.bottom-bar--list .icon + .text {
+  margin-top: 6px;
+  line-height: 1;
+  font-size: 11px;
+}
+@media only screen and (max-width: 1000px) {
+  .SideNav{
+    width: 100%;
+  }
+  .SliderImageContent{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25px;
+  }
+  .SliderImage{
+    height: auto;
+  }
+  .HrT1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  .ContentBoxButtons a{
+    min-width: 135px;
+    font-size: 13px;
+    padding: 10px 30px 10px 15px;
+  }
+  .HrT2 {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  .ContentBoxButtons a:first-child{
+    margin-right: 8px;
+  }
+  .ContentBoxButtons a::after {
+    height: 15px;
+    width: 15px;
+    right: 13px;
+    top: 12px;
+  }
+  .SliderImageContent{
+    align-items: center;
+  }
+  .HeaderFlex {
+    justify-content: space-between;
+  }
+  .LogoImageBox {
+    margin: 10px 0;
+    max-width: 100px;
+  }
+  .hederMenuIcon {
+    width: 25px;
+    height: 25px;
+  }
+  .promotionalBlock {
+    padding-top: 0;
+  }
+  .promotionalBlock .container{
+    padding: 0;
+  }
+  .PbT1 br{
+    display: none;
+  }
+  .PbT1 {
+    font-size: 25px;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  .PbT2 {
+    margin-bottom: 20px;
+  }
+  .PromotionalBlockContent a{
+    font-size: 14px;
+    padding: 8px 20px 8px 8px;
+  }
+  .pd-common {
+    padding: 25px 0px;
+  }
+  .T1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .slider1 {
+    margin-top: 0px;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .slider1 .slick-next, .slider1 .slick-prev{
+    display: none !important;
+  }
+  .ProductGridTop .col-md-9{
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .ProductGridTop .col-md-3{
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .ReviewColumn {
+    width: 18px;
+    height: 19px;
+  }
+  .LikeBtn {
+    width: 25px;
+    height: 21px;
+  }
+  .GbT1 {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+  .GbT2{
+    margin-bottom: 10px;
+  }
+  .ProductGridLnk {
+    max-width: 120px;
+    padding: 5px;
+  }
+  .MobCenter{
+    text-align: center;
+  }
+  .Slider1Link {
+    font-size: 15px;
+    min-width: 180px;
+    font-weight: 400;
+    position: relative;
+    padding: 8px 35px 8px 8px;
+    margin-top: 10px;
+  }
+  .Slider1Link::after {
+    height: 20px;
+    width: 20px;
+    right: 15px;
+    top: 9px;
+  }
+  .OfferT1 {
+    font-size: 28px;
+  }
+  .OfferT2 {
+    font-size: 40px;
+    margin: 5px 0px;
+  }
+  .OfferT3 {
+    font-size: 16px;
+    min-width: 170px;
+    padding: 8px 8px 8px 8px;
+    margin-top: 20px;
+  }
+  .HmT1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .HmT2 {
+    margin-bottom: 15px;
+  }
+  .GallerySlider1 .slick-next, .GallerySlider1 .slick-prev{
+    display: none !important;
+  }
+  .GallerySlider1{
+    margin: 0 -15px;
+  }
+  .RT2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .StarItems {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  .StarItem {
+    width: 26px;
+    height: 23px;
+  }
+  .RT1 {
+    text-align: center;
+  }
+  .Rv1 {
+    font-weight: 500;
+    font-style: normal;
+    color: #589507;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .Rv2 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .RLocation, .Rname{
+    font-size: 15px;
+  }
+  .ReviewAddress::after {
+    width: 25px;
+    height: 25px;
+  }
+  .InstraaLftBoxR {
+    font-size: 24px;
+  }
+  .InstaIcon {
+    width: 25px;
+    height: 25px;
+  }
+  .InstraaLftBox {
+    margin-bottom: 15px;
+  }
+  footer .col-md-5 , footer .col-md-3{
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  footer .col-md-4{
+    text-align: center;
+    margin:  0 auto;
+  }
+  .FooterLogoWrap {
+    max-width: 150px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  body{
+    font-size: 15px;
+  }
+  .FT3 {
+    margin-bottom: 20px;
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 20px;
+  }
+  .FT2{
+font-size: 17px;
+  }
+  .FooterBottomWrap {
+    margin-bottom: 80px;
+  }
+  .FooterBottom {
+    display: block;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 13px;
+  }
+  .SideNavFooter , .T4{
+    display: none;
+  }
 }
