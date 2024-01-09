@@ -32,7 +32,7 @@ export default function AboutAMV() {
   
   return (
     <>
-      <section className="bg3 pd-common HomeGallery">
+      <section className="bg3 pd-common HomeGallery AbtContent1">
         <div className="container">
           <div className="DetBox1">
             <div className="row">
@@ -91,7 +91,7 @@ export default function AboutAMV() {
           </div>
           <div className="DetBox1 DetBox1Mrg">
             <div className="row">
-            <div className="col-md-5">
+            <div className="col-md-5 donly">
                 <Image
                 data-aos="fade-up"
                 data-aos-duration="800"
@@ -141,6 +141,18 @@ export default function AboutAMV() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do
                 </div>
+              </div>
+              <div className="col-md-5 monly">
+                <Image
+                data-aos="fade-up"
+                data-aos-duration="800"
+                  src="/g2.jpg"
+                  layout="responsive"
+                  height={"401"}
+                  width={"476"}
+                  priority={true}
+                  className=""
+                />
               </div>
               
             </div>
