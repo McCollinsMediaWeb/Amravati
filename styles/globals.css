@@ -916,7 +916,8 @@ opacity: 0.6;
   max-width: 900px;
   margin: 0 auto;
 }
-.contactFormR1 .row .col-md-6 {
+.contactFormR1 .row .col-md-6 , 
+.contactFormR1 .row .col-md-12 {
   padding: 0 10px;
   margin-bottom: 20px;
 }
@@ -927,9 +928,20 @@ opacity: 0.6;
   font-size: 30px;
   display: inline-block;
   position: relative;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
   margin: 0 auto 0px;
   text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.Ct11::after {
+  width: 120%;
+  height: 2px;
+  content: "";
+  position: absolute;
+  left: -10%;
+  bottom: 0;
+  background-color: #9F1917;
+  opacity: .5;
 }
 .Ct22{
   padding-bottom: 30px;
@@ -972,4 +984,51 @@ opacity: 0.6;
 .PromotionalGrids .col-md-4{
   padding: 0 10px;
   margin-bottom: 20px;
+}
+.cItem {
+  padding: 20px;
+  background-color: #fff;
+  text-align: left;
+}
+.cItemHd {
+  position: relative;
+  font-weight: 500;
+  line-height: 1.3;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.cItemCntWrp a {
+  display: block;
+}
+.cItemCnt {
+  display: flex;
+  align-items: center;
+}
+.cItemCntL {
+  flex: 0 0 40px;
+}
+.cItemCntR {
+  flex: auto;
+  color: #1d1d1b;
+}
+.Cicon {
+  width: 30px;
+  height: 30px;
+  background-size: 100% 100%;
+  display: inline-block;
+}
+.Cicon.whatsapp{
+background-image: url(../public/cwhatsapp.png);
+}
+.Cicon.email{
+  background-image: url(../public/cemail.png);
+}
+.Cicon.call{
+  background-image: url(../public/ccall.png);
+}
+.Cicon.location{
+  background-image: url(../public/clocation.png);
 }

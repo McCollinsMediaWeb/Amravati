@@ -8,11 +8,8 @@ export default function ContactUs() {
     <>
       
       <div>
-        <PageHeader title="Contact Us"/>
-        <ContactRow1/>
-        <ContactForm/>
+        <PageHeader title="Customer Reviews"/>
         <Testimonials/>
-        <InstaBlock/>
        
       </div>
     </>

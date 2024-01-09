@@ -34,25 +34,25 @@ export default function Footer() {
                   <Link href={"/"}>Home</Link>
                 </div>
                 <div className="col-md-6">
-                  <Link href={"/"}>Aboutus</Link>
+                  <Link href={"/aboutus"}>Aboutus</Link>
                 </div>
                 <div className="col-md-6">
-                  <Link href={"/"}>Catering</Link>
+                  <Link href={"/catering"}>Catering</Link>
                 </div>
                 <div className="col-md-6">
-                  <Link href={"/"}>Offers</Link>
+                  <Link href={"/offers"}>Offers</Link>
                 </div>
                 <div className="col-md-6">
-                  <Link href={"/"}>Contact us</Link>
+                  <Link href={"/contactus"}>Contact us</Link>
                 </div>
                 <div className="col-md-6">
                   <Link href={"/"}>Order Now</Link>
                 </div>
                 <div className="col-md-6">
-                  <Link href={"/"}>Customer Reviews</Link>
+                  <Link href={"/reviews"}>Customer Reviews</Link>
                 </div>
                 <div className="col-md-6">
-                  <Link href={"/"}>FAQ</Link>
+                  <Link href={"/gallery"}>Gallery</Link>
                 </div>
               </div>
             </div>
