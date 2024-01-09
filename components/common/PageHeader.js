@@ -8,10 +8,10 @@ export default function PageHeader(props) {
       <section>
         <div className="PageHeaderWrap">
             <Image
-                src="/u.jpg"
+                src="/u1.jpg"
                 layout="responsive"
                 width={"1440"}
-                height={"535"}
+                height={"395"}
                 priority={true}
                 className="MainBanner"
             />
