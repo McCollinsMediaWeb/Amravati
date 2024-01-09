@@ -20,18 +20,18 @@ export default function ContactRow1(props) {
           <div className="ContactItemBoxes">
             <div className="row">
               <div className="col-md-3">
-                <div class="cItem"  >
-                  <div class="cItemHd text-uppercase secondaryColor">
+                <div className="cItem"  >
+                  <div className="cItemHd text-uppercase secondaryColor">
                     WhatsApp Us
                   </div>
-                  <div class="cItemCntWrpH">
-                    <div class="cItemCntWrp">
+                  <div className="cItemCntWrpH">
+                    <div className="cItemCntWrp">
                       <a href="#">
-                        <div class="cItemCnt">
-                          <div class="cItemCntL">
-                            <span class="Cicon whatsapp">&nbsp;</span>
+                        <div className="cItemCnt">
+                          <div className="cItemCntL">
+                            <span className="Cicon whatsapp">&nbsp;</span>
                           </div>
-                          <div class="cItemCntR transition1">
+                          <div className="cItemCntR transition1">
                             +971-525995503
                           </div>
                         </div>
@@ -41,18 +41,18 @@ export default function ContactRow1(props) {
                 </div>
               </div>
               <div className="col-md-3">
-                <div class="cItem"  >
-                  <div class="cItemHd text-uppercase secondaryColor">
+                <div className="cItem"  >
+                  <div className="cItemHd text-uppercase secondaryColor">
                     Call Us
                   </div>
-                  <div class="cItemCntWrpH">
-                    <div class="cItemCntWrp">
+                  <div className="cItemCntWrpH">
+                    <div className="cItemCntWrp">
                       <a href="#">
-                        <div class="cItemCnt">
-                          <div class="cItemCntL">
-                            <span class="Cicon call">&nbsp;</span>
+                        <div className="cItemCnt">
+                          <div className="cItemCntL">
+                            <span className="Cicon call">&nbsp;</span>
                           </div>
-                          <div class="cItemCntR transition1">
+                          <div className="cItemCntR transition1">
                             +971-525995503
                           </div>
                         </div>
@@ -62,18 +62,18 @@ export default function ContactRow1(props) {
                 </div>
               </div>
               <div className="col-md-3">
-                <div class="cItem"  >
-                  <div class="cItemHd text-uppercase secondaryColor">
+                <div className="cItem"  >
+                  <div className="cItemHd text-uppercase secondaryColor">
                     Email Us
                   </div>
-                  <div class="cItemCntWrpH">
-                    <div class="cItemCntWrp">
+                  <div className="cItemCntWrpH">
+                    <div className="cItemCntWrp">
                       <a href="#">
-                        <div class="cItemCnt">
-                          <div class="cItemCntL">
-                            <span class="Cicon email">&nbsp;</span>
+                        <div className="cItemCnt">
+                          <div className="cItemCntL">
+                            <span className="Cicon email">&nbsp;</span>
                           </div>
-                          <div class="cItemCntR transition1">
+                          <div className="cItemCntR transition1">
                             ijas@mccollinsmedia.com
                           </div>
                         </div>
@@ -83,18 +83,18 @@ export default function ContactRow1(props) {
                 </div>
               </div>
               <div className="col-md-3">
-                <div class="cItem"  >
-                  <div class="cItemHd text-uppercase secondaryColor">
+                <div className="cItem"  >
+                  <div className="cItemHd text-uppercase secondaryColor">
                     Visit Us
                   </div>
-                  <div class="cItemCntWrpH">
-                    <div class="cItemCntWrp">
+                  <div className="cItemCntWrpH">
+                    <div className="cItemCntWrp">
                       <a href="#">
-                        <div class="cItemCnt">
-                          <div class="cItemCntL">
-                            <span class="Cicon location">&nbsp;</span>
+                        <div className="cItemCnt">
+                          <div className="cItemCntL">
+                            <span className="Cicon location">&nbsp;</span>
                           </div>
-                          <div class="cItemCntR transition1">
+                          <div className="cItemCntR transition1">
                             Amravathi Hotel
                           </div>
                         </div>

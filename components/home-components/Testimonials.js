@@ -33,17 +33,17 @@ export default function Testimonials() {
               <div className="col-md-5">
                 <div className="RT2" >Food Lovers Feedback</div>
                 <div className="RT3" >
-                  <div class="StarItems">
-                    <div class="StarItem">&nbsp;</div>
-                    <div class="StarItem">&nbsp;</div>
-                    <div class="StarItem">&nbsp;</div>
-                    <div class="StarItem">&nbsp;</div>
-                    <div class="StarItem">&nbsp;</div>
+                  <div className="StarItems">
+                    <div className="StarItem">&nbsp;</div>
+                    <div className="StarItem">&nbsp;</div>
+                    <div className="StarItem">&nbsp;</div>
+                    <div className="StarItem">&nbsp;</div>
+                    <div className="StarItem">&nbsp;</div>
                   </div>
                 </div>
               </div>
               <div className="col-md-7">
-                <div class="RT1" >
+                <div className="RT1" >
                   Words from Our Happy Customers: Discover the Delight of Dining
                   with Us! At Amaravathi our passion is not only to serve
                   exquisite dishes but to create unforgettable dining
@@ -59,60 +59,60 @@ export default function Testimonials() {
             <Slider {...settings}>
               <div>
                 <div className="TestimonialItem">
-                  <div class="ReviewItemBoxItem">
-                    <div class="Rv1">Good pricees, yummy food and perfect</div>
-                    <div class="Rv2">
+                  <div className="ReviewItemBoxItem">
+                    <div className="Rv1">Good pricees, yummy food and perfect</div>
+                    <div className="Rv2">
                       “Good pricees, yummy food and perfect presentation of
                       dishes, also for shisha lovers it's good fruitful flavor.“
                     </div>
-                    <div class="ReviewAddress">
-                      <div class="Rname text-uppercase">Firas Altaweel</div>
-                      <div class="RLocation text-uppercase">Dubai</div>
+                    <div className="ReviewAddress">
+                      <div className="Rname text-uppercase">Firas Altaweel</div>
+                      <div className="RLocation text-uppercase">Dubai</div>
                     </div>
                   </div>
                 </div>
               </div>
               <div>
                 <div className="TestimonialItem">
-                  <div class="ReviewItemBoxItem">
-                    <div class="Rv1">Good pricees, yummy food and perfect</div>
-                    <div class="Rv2">
+                  <div className="ReviewItemBoxItem">
+                    <div className="Rv1">Good pricees, yummy food and perfect</div>
+                    <div className="Rv2">
                       “Good pricees, yummy food and perfect presentation of
                       dishes, also for shisha lovers it's good fruitful flavor.“
                     </div>
-                    <div class="ReviewAddress">
-                      <div class="Rname text-uppercase">Firas Altaweel</div>
-                      <div class="RLocation text-uppercase">Dubai</div>
+                    <div className="ReviewAddress">
+                      <div className="Rname text-uppercase">Firas Altaweel</div>
+                      <div className="RLocation text-uppercase">Dubai</div>
                     </div>
                   </div>
                 </div>
               </div>
               <div>
                 <div className="TestimonialItem">
-                  <div class="ReviewItemBoxItem">
-                    <div class="Rv1">Good pricees, yummy food and perfect</div>
-                    <div class="Rv2">
+                  <div className="ReviewItemBoxItem">
+                    <div className="Rv1">Good pricees, yummy food and perfect</div>
+                    <div className="Rv2">
                       “Good pricees, yummy food and perfect presentation of
                       dishes, also for shisha lovers it's good fruitful flavor.“
                     </div>
-                    <div class="ReviewAddress">
-                      <div class="Rname text-uppercase">Firas Altaweel</div>
-                      <div class="RLocation text-uppercase">Dubai</div>
+                    <div className="ReviewAddress">
+                      <div className="Rname text-uppercase">Firas Altaweel</div>
+                      <div className="RLocation text-uppercase">Dubai</div>
                     </div>
                   </div>
                 </div>
               </div>
               <div>
                 <div className="TestimonialItem">
-                  <div class="ReviewItemBoxItem">
-                    <div class="Rv1">Good pricees, yummy food and perfect</div>
-                    <div class="Rv2">
+                  <div className="ReviewItemBoxItem">
+                    <div className="Rv1">Good pricees, yummy food and perfect</div>
+                    <div className="Rv2">
                       “Good pricees, yummy food and perfect presentation of
                       dishes, also for shisha lovers it's good fruitful flavor.“
                     </div>
-                    <div class="ReviewAddress">
-                      <div class="Rname text-uppercase">Firas Altaweel</div>
-                      <div class="RLocation text-uppercase">Dubai</div>
+                    <div className="ReviewAddress">
+                      <div className="Rname text-uppercase">Firas Altaweel</div>
+                      <div className="RLocation text-uppercase">Dubai</div>
                     </div>
                   </div>
                 </div>

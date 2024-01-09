@@ -15,23 +15,23 @@ export default function FooterBottom() {
         </div>
       </div>
       {!isDesktop && (
-      <div class="halo-sticky-toolbar-mobile mobile-only">
-        <div class="bottom-bar">
-          <ul class="bottom-bar--list">
-            <li class="">
+      <div className="halo-sticky-toolbar-mobile mobile-only">
+        <div className="bottom-bar">
+          <ul className="bottom-bar--list">
+            <li className="">
             <Link href={"/"}>
-                <div class="icon">
-                  <div class="FtrIconH home">&nbsp;</div>
+                <div className="icon">
+                  <div className="FtrIconH home">&nbsp;</div>
                 </div>
-                <div class="text">Home</div>
+                <div className="text">Home</div>
               </Link>
             </li>
-            <li class="">
+            <li className="">
             <Link href={"/catering"}>
-                <div class="icon">
-                  <div class="FtrIconH reserve">&nbsp;</div>
+                <div className="icon">
+                  <div className="FtrIconH reserve">&nbsp;</div>
                 </div>
-                <div class="text">Catering</div>
+                <div className="text">Catering</div>
               </Link>
             </li>
             <li>
@@ -39,26 +39,26 @@ export default function FooterBottom() {
                 href="#"
                 target="_blank"
               >
-                <div class="icon">
-                  <div class="FtrIconH order">&nbsp;</div>
+                <div className="icon">
+                  <div className="FtrIconH order">&nbsp;</div>
                 </div>
-                <div class="text">Order</div>
+                <div className="text">Order</div>
               </a>
             </li>
             <li>
               <a href="#">
-                <div class="icon">
-                  <div class="FtrIconH whatsapp">&nbsp;</div>
+                <div className="icon">
+                  <div className="FtrIconH whatsapp">&nbsp;</div>
                 </div>
-                <div class="text">WhatsApp</div>
+                <div className="text">WhatsApp</div>
               </a>
             </li>
             <li>
               <a href="tel:+971525995503">
-                <div class="icon">
-                  <div class="FtrIconH call">&nbsp;</div>
+                <div className="icon">
+                  <div className="FtrIconH call">&nbsp;</div>
                 </div>
-                <div class="text">Call Us</div>
+                <div className="text">Call Us</div>
               </a>
             </li>
           </ul>

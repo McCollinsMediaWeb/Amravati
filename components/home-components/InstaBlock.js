@@ -32,13 +32,13 @@ export default function InstaBlock() {
             <div className="row">
               <div className="col-md-5">
                 <div
-                  class="InstraaLftBox"
+                  className="InstraaLftBox"
                   
                 >
-                  <div class="InstraaLftBoxL">
-                    <span class="InstaIcon">&nbsp;</span>
+                  <div className="InstraaLftBoxL">
+                    <span className="InstaIcon">&nbsp;</span>
                   </div>
-                  <div class="InstraaLftBoxR">#connectAmaravathi</div>
+                  <div className="InstraaLftBoxR">#connectAmaravathi</div>
                 </div>
               </div>
               <div className="col-md-7">

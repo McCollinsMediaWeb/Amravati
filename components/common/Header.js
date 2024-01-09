@@ -227,7 +227,7 @@ export default function Header() {
               </div>
             </div>
           </div>
-          <div class="T4">Follow us for mouthwatering food photos, special offers, and a taste of our vibrant dining experience</div>
+          <div className="T4">Follow us for mouthwatering food photos, special offers, and a taste of our vibrant dining experience</div>
         </div>
       </header>
     </>
