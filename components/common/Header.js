@@ -76,7 +76,7 @@ export default function Header() {
                       router.pathname == "/menu" ? "link1 active" : "link1"
                     }
                   >
-                    Menu
+                    Our Menu
                   </Link>
                 </div>
                 <div className="HeaderItem">

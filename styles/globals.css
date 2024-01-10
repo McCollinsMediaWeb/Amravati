@@ -78,6 +78,7 @@ header{
     color: #000;
     font-weight: 400;
     position: relative;
+    font-size: 18px;
 }
 
 .HeaderItem a.link1.active,
