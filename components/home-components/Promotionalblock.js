@@ -56,7 +56,7 @@ Special</div>
                 <div className="PromotionalBlockContent">
                     <div className="PbT1 hfont">Sea Food<br/>
 Special</div>
-                    <div className="PbT2">20% Offers</div>
+                    <div className="PbT2"><span className="sfont">20%</span> Offers</div>
                     <a href="#" className="color3">View Menu</a>
                 </div>
               </div>

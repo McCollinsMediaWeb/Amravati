@@ -31,7 +31,7 @@ export default function ContactRow1(props) {
                           <div className="cItemCntL">
                             <span className="Cicon whatsapp">&nbsp;</span>
                           </div>
-                          <div className="cItemCntR transition1 hfont">
+                          <div className="cItemCntR transition1 sfont">
                             +971-525995503
                           </div>
                         </div>
@@ -52,7 +52,7 @@ export default function ContactRow1(props) {
                           <div className="cItemCntL">
                             <span className="Cicon call">&nbsp;</span>
                           </div>
-                          <div className="cItemCntR transition1 hfont">
+                          <div className="cItemCntR transition1 sfont">
                             +971-525995503
                           </div>
                         </div>
@@ -73,7 +73,7 @@ export default function ContactRow1(props) {
                           <div className="cItemCntL">
                             <span className="Cicon email">&nbsp;</span>
                           </div>
-                          <div className="cItemCntR transition1 hfont">
+                          <div className="cItemCntR transition1">
                             ijas@mccollinsmedia.com
                           </div>
                         </div>
@@ -94,7 +94,7 @@ export default function ContactRow1(props) {
                           <div className="cItemCntL">
                             <span className="Cicon location">&nbsp;</span>
                           </div>
-                          <div className="cItemCntR transition1 hfont">
+                          <div className="cItemCntR transition1">
                             Amravathi Hotel
                           </div>
                         </div>

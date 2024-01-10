@@ -71,12 +71,12 @@ export default function Header() {
               <>
                 <div className="HeaderItem">
                   <Link
-                    href={"/offers"}
+                    href={"/menu"}
                     className={
-                      router.pathname == "/offers" ? "link1 active" : "link1"
+                      router.pathname == "/menu" ? "link1 active" : "link1"
                     }
                   >
-                    Offers
+                    Menu
                   </Link>
                 </div>
                 <div className="HeaderItem">
@@ -170,10 +170,10 @@ export default function Header() {
             </div>
             <div className="SideNavLinksRow" onClick={() => setOpen(false)}>
               <Link
-                href={"/offers"}
+                href={"/menu"}
                 className={router.pathname == "/offers" ? "link1 active" : "link1"}
               >
-                Our Offers
+                Our Menu
               </Link>
             </div>
             <div className="SideNavLinksRow" onClick={() => setOpen(false)}>

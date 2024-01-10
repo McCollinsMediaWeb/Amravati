@@ -37,7 +37,7 @@ export default function (props) {
             <div className="row align-items-center">
               <div className="col-md-7">
                 <div className="GbT1">{props.menuTitle}</div>
-                <div className="GbT2 hfont">AED {props.menuPrice}</div>
+                <div className="GbT2">AED <span className="sfont">{props.menuPrice}</span></div>
               </div>
               <div className="col-md-5">
                 <a href="javascript:void(0)" className="ProductGridLnk">Order Now</a>

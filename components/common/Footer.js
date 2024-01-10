@@ -28,7 +28,7 @@ export default function Footer() {
               </a>
             </div>
             <div className="col-md-5">
-              <div className="FT3">Useful Links</div>
+              <div className="FT3 hfont">Useful Links</div>
               <div className="row FtrLinksWrap">
                 <div className="col-md-6">
                   <Link href={"/"}>Home</Link>
@@ -40,7 +40,7 @@ export default function Footer() {
                   <Link href={"/catering"}>Catering</Link>
                 </div>
                 <div className="col-md-6">
-                  <Link href={"/offers"}>Offers</Link>
+                  <Link href={"/Menu"}>Our Menu</Link>
                 </div>
                 <div className="col-md-6">
                   <Link href={"/contactus"}>Contact us</Link>
@@ -57,12 +57,12 @@ export default function Footer() {
               </div>
             </div>
             <div className="col-md-3">
-              <div className="FT3">Connect With Us</div>
+              <div className="FT3 hfont">Connect With Us</div>
               <div className="FT4">Phone Number</div>
-              <div className="FtLnk1 hfont">
+              <div className="FtLnk1 sfont">
                 <a href="#">+971 43377077</a>
               </div>
-              <div className="FtLnk1 hfont">
+              <div className="FtLnk1 sfont">
                 <a href="#">+971 5515 46699</a>
               </div>
               <div className="FtrSocialMedia">

@@ -34,7 +34,7 @@ const CateringForm = (props) => {
       secondary: { main: "#000" },
     },
     typography: {
-      fontFamily: ["Poppins", "sans-serif"],
+      fontFamily: ["GE SS Two", "sans-serif"],
     },
   });
   const handleChange = (event) => {
