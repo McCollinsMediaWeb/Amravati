@@ -561,8 +561,8 @@ text-transform: capitalize;
     top: 0;
   }
   .LikeBtn {
-    width: 30px;
-    height: 26px;
+    width: 25px;
+    height: 22px;
     background-size: 100% 100%;
     background-image: url(../public/like.png);
     cursor: pointer;
@@ -1142,6 +1142,19 @@ margin: 0 -3px;
 .MenuItemsBox > .row > .col-md-3{
 padding: 0 3px;
 margin-bottom: 15px;
+flex: 0 0 20%;
+max-width: 20%;
+}
+.MenuItemsBox .ProductGridLnk{
+  font-size: 10px;
+}
+.ProductGridBottom > .row , 
+.ProductGridTop > .row{
+  margin: 0 -5px;
+}
+.ProductGridBottom > .row > div ,
+.ProductGridTop > .row > div{
+  padding: 0 5px;
 }
 @media only screen and (max-width: 1000px) {
   .DetBox1Mrg {
