@@ -9,9 +9,9 @@ export default function aboutus() {
       <div>
         <PageHeader title="about us"/>
         <AboutAMV/>
-        
-        <InstaBlock/>
         <Testimonials/>
+        <InstaBlock/>
+        
         </div>
     </>
   );

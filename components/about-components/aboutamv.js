@@ -32,7 +32,7 @@ export default function AboutAMV() {
   
   return (
     <>
-      <section className="bg6 pd-common HomeGallery AbtContent1">
+      <section className="bg8 pd-common HomeGallery AbtContent1">
         <div className="container">
           <div className="DetBox1">
             <div className="row">

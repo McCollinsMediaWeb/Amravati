@@ -30,7 +30,7 @@ export default function ContactUs() {
     <>
       <div>
         
-        <div className="bg5 pd-common MenuListBox">
+        <div className="bg5n pd-common MenuListBox">
           <div className="container">
             <div className="MenuItemTabWrap">
             <div

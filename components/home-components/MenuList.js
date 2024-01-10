@@ -32,7 +32,7 @@ export default function MenuList() {
             className="T1 text-center color-fff hfont"
             
           >
-            Trending Now In Town
+            Best Selling Products
           </div>
           <div
             className="T2 text-center color-fff"
