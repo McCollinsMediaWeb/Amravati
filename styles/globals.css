@@ -1140,8 +1140,8 @@ background-image: url(../public/fcall.png);
 margin: 0 -3px;
 }
 .MenuItemsBox > .row > .col-md-3{
-padding: 0 3px;
-margin-bottom: 15px;
+padding: 0 5px;
+margin-bottom: 10px;
 flex: 0 0 20%;
 max-width: 20%;
 }
@@ -1155,6 +1155,9 @@ max-width: 20%;
 .ProductGridBottom > .row > div ,
 .ProductGridTop > .row > div{
   padding: 0 5px;
+}
+.MenuItemsBox .ProductGrid{
+  margin: 0;
 }
 @media only screen and (max-width: 1000px) {
   .DetBox1Mrg {
