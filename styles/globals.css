@@ -85,7 +85,9 @@ header{
 .HeaderItem a.link1:hover {
     color: #9F1917;
 }
-
+.DetBox1 .col-md-5 img{
+  border-radius: 20px;
+}
 .HeaderItem a.link1.active::after,
 .HeaderItem a.link1:hover::after {
     transition: 0.4s;
@@ -1537,5 +1539,8 @@ font-size: 17px;
   .MenuItemsBox > .row > .col-md-3 {
     flex: 0 0 50%;
     max-width: 50%;
+  }
+  .DetBox1 .col-md-5 img{
+    border-radius: 15px;
   }
 }
