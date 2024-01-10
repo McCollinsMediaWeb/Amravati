@@ -29,7 +29,7 @@ export default function MenuList() {
       <section className="bg1 MenuList pd-common">
         <div className="container">
           <div
-            className="T1 text-center color-fff"
+            className="T1 text-center color-fff hfont"
             
           >
             Trending Now In Town

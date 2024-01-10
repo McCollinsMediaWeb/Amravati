@@ -31,7 +31,7 @@ export default function Testimonials() {
           <div className="TestimonialHeader">
             <div className="row align-items-center">
               <div className="col-md-5">
-                <div className="RT2" >Food Lovers Feedback</div>
+                <div className="RT2 hfont" >Food Lovers Feedback</div>
                 <div className="RT3" >
                   <div className="StarItems">
                     <div className="StarItem">&nbsp;</div>

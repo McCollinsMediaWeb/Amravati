@@ -38,7 +38,7 @@ export default function InstaBlock() {
                   <div className="InstraaLftBoxL">
                     <span className="InstaIcon">&nbsp;</span>
                   </div>
-                  <div className="InstraaLftBoxR">#connectAmaravathi</div>
+                  <div className="InstraaLftBoxR hfont">#connectAmaravathi</div>
                 </div>
               </div>
               <div className="col-md-7">

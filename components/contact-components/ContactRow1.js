@@ -9,7 +9,7 @@ export default function ContactRow1(props) {
       <section className="pd-common bg5">
         <div className="container">
           <div className="text-center">
-            <div className="Ct11" >
+            <div className="Ct11 hfont" >
               Let’s Get in Touch
             </div>
             <div className="Ct22" >
@@ -31,7 +31,7 @@ export default function ContactRow1(props) {
                           <div className="cItemCntL">
                             <span className="Cicon whatsapp">&nbsp;</span>
                           </div>
-                          <div className="cItemCntR transition1">
+                          <div className="cItemCntR transition1 hfont">
                             +971-525995503
                           </div>
                         </div>
@@ -52,7 +52,7 @@ export default function ContactRow1(props) {
                           <div className="cItemCntL">
                             <span className="Cicon call">&nbsp;</span>
                           </div>
-                          <div className="cItemCntR transition1">
+                          <div className="cItemCntR transition1 hfont">
                             +971-525995503
                           </div>
                         </div>
@@ -73,7 +73,7 @@ export default function ContactRow1(props) {
                           <div className="cItemCntL">
                             <span className="Cicon email">&nbsp;</span>
                           </div>
-                          <div className="cItemCntR transition1">
+                          <div className="cItemCntR transition1 hfont">
                             ijas@mccollinsmedia.com
                           </div>
                         </div>
@@ -94,7 +94,7 @@ export default function ContactRow1(props) {
                           <div className="cItemCntL">
                             <span className="Cicon location">&nbsp;</span>
                           </div>
-                          <div className="cItemCntR transition1">
+                          <div className="cItemCntR transition1 hfont">
                             Amravathi Hotel
                           </div>
                         </div>

@@ -19,7 +19,7 @@ export default function PromotionalBlock() {
                   className=""
                 />
                 <div className="PromotionalBlockContent">
-                    <div className="PbT1">Offers <br/>25% OFF</div>
+                    <div className="PbT1 hfont">Offers <br/>25% OFF</div>
                     <div className="PbT2">ON FIRST PURCHASE</div>
                     <a href="#" className="color1">View Menu</a>
                 </div>
@@ -36,7 +36,7 @@ export default function PromotionalBlock() {
                   className=""
                 />
                 <div className="PromotionalBlockContent">
-                    <div className="PbT1">Weekend<br/>
+                    <div className="PbT1 hfont">Weekend<br/>
 Special</div>
                     <div className="PbT2">ON FIRST PURCHASE</div>
                     <a href="#" className="color2">View Menu</a>
@@ -54,7 +54,7 @@ Special</div>
                   className=""
                 />
                 <div className="PromotionalBlockContent">
-                    <div className="PbT1">Sea Food<br/>
+                    <div className="PbT1 hfont">Sea Food<br/>
 Special</div>
                     <div className="PbT2">20% Offers</div>
                     <a href="#" className="color3">View Menu</a>

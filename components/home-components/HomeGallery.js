@@ -35,7 +35,7 @@ export default function HomeGallery() {
       <section className="bg5 pd-common HomeGallery">
         <div className="container">
           <div
-            className="HmT1 text-center"
+            className="HmT1 text-center hfont"
             
           >
             Discover the Delights of <br />

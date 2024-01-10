@@ -40,7 +40,7 @@ export default function OfferBox() {
                 Discount
               </div>
               <div
-                className="OfferT2"
+                className="OfferT2 hfont"
                 
               >
                 15% OFF

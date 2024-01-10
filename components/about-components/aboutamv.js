@@ -38,7 +38,7 @@ export default function AboutAMV() {
             <div className="row">
               <div className="col-md-7">
                 <div
-                  className="HmT1"
+                  className="HmT1 hfont"
                   data-aos="fade-up"
                   data-aos-duration="800"
                 >
@@ -105,7 +105,7 @@ export default function AboutAMV() {
               </div>
               <div className="col-md-7">
                 <div
-                  className="HmT1"
+                  className="HmT1 hfont"
                   data-aos="fade-up"
                   data-aos-duration="800"
                 >
@@ -161,7 +161,7 @@ export default function AboutAMV() {
             <div className="row">
               <div className="col-md-7">
                 <div
-                  className="HmT1"
+                  className="HmT1 hfont"
                   data-aos="fade-up"
                   data-aos-duration="800"
                 >

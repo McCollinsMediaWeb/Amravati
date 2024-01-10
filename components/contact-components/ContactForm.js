@@ -45,7 +45,7 @@ const ContactForm = (props) => {
     <div className="pd-common ContactRow2 CatSeForm bg3">
       <div className="container">
         <div className="text-center">
-          <div className="Ct11" data-aos="fade-up"
+          <div className="Ct11 hfont" data-aos="fade-up"
                   data-aos-duration="800">Make an Enquiry</div>
           <div className="Ct22" data-aos="fade-up"
                   data-aos-duration="800">

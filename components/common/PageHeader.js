@@ -17,7 +17,7 @@ export default function PageHeader(props) {
             />
             <div className="PageHeaderContent">
                 <div>
-                    <div className="PageTitle position-relative" >{props.title}</div>
+                    <div className="PageTitle position-relative hfont" >{props.title}</div>
                 </div>
             </div>
         </div>

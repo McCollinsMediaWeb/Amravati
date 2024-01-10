@@ -59,11 +59,11 @@ export default function Footer() {
             <div className="col-md-3">
               <div className="FT3">Connect With Us</div>
               <div className="FT4">Phone Number</div>
-              <div className="FtLnk1">
-                <a href="#">+97143377077</a>
+              <div className="FtLnk1 hfont">
+                <a href="#">+971 43377077</a>
               </div>
-              <div className="FtLnk1">
-                <a href="#">+971551546699</a>
+              <div className="FtLnk1 hfont">
+                <a href="#">+971 5515 46699</a>
               </div>
               <div className="FtrSocialMedia">
                 <div className="FtrSocialMediaFlex">
