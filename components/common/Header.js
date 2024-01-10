@@ -144,7 +144,7 @@ export default function Header() {
             </div>
           </div>
           <div className="SideNavLinks">
-            <div className="SideNavLinksRow" onClick={() => setOpen(false)}>
+            <div className="SideNavLinksRow hfont" onClick={() => setOpen(false)}>
               <Link
                 href={"/"}
                 className={router.pathname == "/" ? "link1 active" : "link1"}
@@ -152,7 +152,7 @@ export default function Header() {
                 Home
               </Link>
             </div>
-            <div className="SideNavLinksRow" onClick={() => setOpen(false)}>
+            <div className="SideNavLinksRow hfont" onClick={() => setOpen(false)}>
               <Link
                 href={"/aboutus"}
                 className={router.pathname == "/aboutus" ? "link1 active" : "link1"}
@@ -160,7 +160,7 @@ export default function Header() {
                 About Us
               </Link>
             </div>
-            <div className="SideNavLinksRow" onClick={() => setOpen(false)}>
+            <div className="SideNavLinksRow hfont" onClick={() => setOpen(false)}>
               <Link
                 href={"/catering"}
                 className={router.pathname == "/catering" ? "link1 active" : "link1"}
@@ -168,7 +168,7 @@ export default function Header() {
                 Catering Services
               </Link>
             </div>
-            <div className="SideNavLinksRow" onClick={() => setOpen(false)}>
+            <div className="SideNavLinksRow hfont" onClick={() => setOpen(false)}>
               <Link
                 href={"/menu"}
                 className={router.pathname == "/offers" ? "link1 active" : "link1"}
@@ -176,7 +176,7 @@ export default function Header() {
                 Our Menu
               </Link>
             </div>
-            <div className="SideNavLinksRow" onClick={() => setOpen(false)}>
+            <div className="SideNavLinksRow hfont" onClick={() => setOpen(false)}>
               <Link
                 href={"/contactus"}
                 className={router.pathname == "/contactus" ? "link1 active" : "link1"}
@@ -184,7 +184,7 @@ export default function Header() {
                 Contact us
               </Link>
             </div>
-            <div className="SideNavLinksRow" onClick={() => setOpen(false)}>
+            <div className="SideNavLinksRow hfont" onClick={() => setOpen(false)}>
               <Link
                 href={"/"}
                 className={router.pathname == "/" ? "link1 active" : "link1"}
