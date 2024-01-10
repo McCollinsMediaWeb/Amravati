@@ -84,6 +84,7 @@ header{
     position: relative;
     width: 100%;
     height: calc(100vh - 70px);
+    overflow: hidden;
 }
 .SliderImage::after{
     content: "";
@@ -385,7 +386,10 @@ text-transform: capitalize;
   }
   .PromotionalGrid{
     position: relative;
-   
+   border-radius: 25px;
+  }
+  .PromotionalGrid > img{
+    border-radius: 25px;
   }
   .PromotionalGrid::after{
     content: "";
@@ -395,6 +399,7 @@ text-transform: capitalize;
     left: 0;
     top: 0;
     background-color: rgba(0,0,0,0.2);
+    border-radius: 25px;
   }
   .promotionalBlock{
     padding-top: 30px;
@@ -496,6 +501,7 @@ text-transform: capitalize;
     position: relative;
     overflow: hidden;
     margin: 0 8px;
+    border-radius: 25px;
   }
   .ProductGrid::after {
     content: "";
@@ -699,7 +705,12 @@ text-transform: capitalize;
   margin: 0 5px;
   cursor: pointer;
  }
-
+ .GelleryItem > img{
+  border-radius: 25px;
+ }
+ .GelleryItem a > img{
+  border-radius: 25px;
+ }
  .GallerySlider1 .slick-next::before, .GallerySlider1 .slick-prev::before {
   content: "";
   width: 50px;
@@ -849,7 +860,7 @@ background-color: #9F1917;
   width: 30px;
   height: 26px;
   display: inline-block;
-  background-image: url(../public/start.png);
+  background-image: url(../public/start2.png);
   background-size: 100% 100%;
   margin-right: 10px;
 }
@@ -899,9 +910,7 @@ opacity: 0.6;
 }
 
 .PageTitle  {
-  background: rgba(255,255,255,0.6);
-  color: #9F1917;
-  padding: 10px 20px;
+ color: #fff;
 }
 .DetBox1Mrg{
   margin-top: 60px;
@@ -1392,5 +1401,49 @@ font-size: 17px;
   }
   .Ct22 {
     padding-bottom: 15px;
+  }
+  .PromotionalGrid > img ,
+  .PromotionalGrid , 
+  .PromotionalGrid::after
+   {
+    border-radius: 0;
+  }
+  .ProductGrid ,
+  .GelleryItem > img ,
+  .GelleryItem a > img{
+    border-radius: 20px;
+  }
+}
+
+.bg5{
+  background-image: url(../public/bg5.jpg);
+  background-size: 100% 100%;
+}
+.bg55{
+  background-image: url(../public/bg55.jpg);
+  background-size: 100% 100%;
+}
+.bg6{
+  background-image: url(../public/bg6.jpg);
+  background-size: 100% 100%;
+}
+.bg7{
+  background-image: url(../public/bg7.jpg);
+  background-size: 100% 100%;
+}
+.bg8{
+  background-image: url(../public/bg8.jpg);
+  background-size: 100% 100%;
+}
+.DImage{
+  animation: leaves 20s ease-in-out infinite alternate;
+  transition: 0.5s;
+}
+@keyframes leaves {
+  0% {
+      transform: scale(1.0);
+  }
+  100% {
+      transform: scale(1.2);
   }
 }

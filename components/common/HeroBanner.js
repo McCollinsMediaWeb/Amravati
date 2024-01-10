@@ -15,7 +15,7 @@ export default function HeroBanner() {
             src="/hero.jpg"
             layout="fill"
             priority={true}
-            className="MainBanner"
+            className="MainBanner DImage"
           />
           )}
       {!isDesktop && (

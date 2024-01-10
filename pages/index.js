@@ -12,8 +12,8 @@ export default function Home() {
       
       <div>
         <HeroBanner/>
-        <PromotionalBlock/>
-        <MenuList/>
+          <PromotionalBlock/>
+          <MenuList/>
         <OfferBox/>
         <HomeGallery/>
         <Testimonials/>

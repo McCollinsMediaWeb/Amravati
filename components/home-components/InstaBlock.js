@@ -26,7 +26,7 @@ export default function InstaBlock() {
   
   return (
     <>
-      <section className="bg4 pd-common HomeGallery">
+      <section className="bg7 pd-common HomeGallery">
         <div className="container">
           <div className="InstaGalleryHeader color-fff">
             <div className="row">

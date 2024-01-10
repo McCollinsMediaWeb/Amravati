@@ -42,7 +42,7 @@ const CateringForm = (props) => {
   };
 
   return (
-    <div className="pd-common ContactRow2 CatSeForm bg3">
+    <div className="pd-common ContactRow2 CatSeForm bg8">
       <div className="container">
         <div className="text-center">
           <div className="Ct11" data-aos="fade-up"
