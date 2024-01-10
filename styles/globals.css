@@ -1159,7 +1159,74 @@ max-width: 20%;
 .MenuItemsBox .ProductGrid{
   margin: 0;
 }
+.MenuTabItem{
+  background-color: #9F1917;
+  padding: 10px;
+  color: #fff;
+  margin: 0 8px;
+  text-align: center;
+  border-radius: 20px;
+  transition: 0.4s;
+  cursor: pointer;
+  min-width: 135px;
+}
+.MenuTabItem.active ,
+.MenuTabItem:hover{
+  background-color: #EA931A;
+}
+.MenuItemTabWrap{
+  margin-bottom: 30px;
+}
+.MenuItemTabWrap .slick-prev::before, 
+.MenuItemTabWrap .slick-next::before{
+  color: #9F1917;
+}
+
+.bg5{
+  background-image: url(../public/bg5.jpg);
+  background-size: 100% 100%;
+}
+.bg55{
+  background-image: url(../public/bg55.jpg);
+  background-size: 100% 100%;
+}
+.bg6{
+  background-image: url(../public/bg6.jpg);
+  background-size: 100% 100%;
+}
+.bg7{
+  background-image: url(../public/bg7.jpg);
+  background-size: 100% 100%;
+}
+.bg8{
+  background-image: url(../public/bg8.jpg);
+  background-size: 100% 100%;
+}
+.DImage{
+  animation: leaves 20s ease-in-out infinite alternate;
+  transition: 0.5s;
+}
+@keyframes leaves {
+  0% {
+      transform: scale(1.0);
+  }
+  100% {
+      transform: scale(1.2);
+  }
+}
 @media only screen and (max-width: 1000px) {
+  .MenuListBox .container{
+    padding: 0 5px;
+  }
+  .bg5{
+    background-image: url(../public/mbg5.jpg);
+  }
+  .MenuSlidet1{
+    margin: 0 -15px;
+  }
+  .MenuItemTabWrap {
+    margin-bottom: 0;
+  }
   .DetBox1Mrg {
     margin-top: 20px;
   }
@@ -1469,38 +1536,5 @@ font-size: 17px;
   .MenuItemsBox > .row > .col-md-3 {
     flex: 0 0 50%;
     max-width: 50%;
-  }
-}
-
-.bg5{
-  background-image: url(../public/bg5.jpg);
-  background-size: 100% 100%;
-}
-.bg55{
-  background-image: url(../public/bg55.jpg);
-  background-size: 100% 100%;
-}
-.bg6{
-  background-image: url(../public/bg6.jpg);
-  background-size: 100% 100%;
-}
-.bg7{
-  background-image: url(../public/bg7.jpg);
-  background-size: 100% 100%;
-}
-.bg8{
-  background-image: url(../public/bg8.jpg);
-  background-size: 100% 100%;
-}
-.DImage{
-  animation: leaves 20s ease-in-out infinite alternate;
-  transition: 0.5s;
-}
-@keyframes leaves {
-  0% {
-      transform: scale(1.0);
-  }
-  100% {
-      transform: scale(1.2);
   }
 }
