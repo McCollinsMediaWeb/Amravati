@@ -7,7 +7,7 @@ export default function ContactUs() {
     <>
       <div>
         <PageHeader title="Delicious Menu" />
-        <div className="bg8 pd-common MenuListBox">
+        <div className="bg5 pd-common MenuListBox">
           <div className="container">
             <div className="MenuItemsBox">
               <div className="row">
