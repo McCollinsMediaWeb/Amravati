@@ -5,7 +5,7 @@ export default function PromotionalBlock() {
 
   return (
     <>
-      <section className="bg1 promotionalBlock">
+      <section className="bgnew1 promotionalBlock">
         <div className="container">
           <div className="row">
             <div className="col-md-4">

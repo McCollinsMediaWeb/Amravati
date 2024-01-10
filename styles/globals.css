@@ -128,7 +128,9 @@ header{
     left: 0;
     bottom: 0;
 }
-
+.color-theme{
+  color: #9F1917;
+}
 .MenuIconsWrap {
     position: absolute;
     right: 0;
@@ -1212,6 +1214,10 @@ max-width: 20%;
 .DImage{
   animation: leaves 20s ease-in-out infinite alternate;
   transition: 0.5s;
+}
+.bgnew1{
+  background-image: url(../public/bgnew1.jpg);
+  background-size: 100% 100%;
 }
 @keyframes leaves {
   0% {

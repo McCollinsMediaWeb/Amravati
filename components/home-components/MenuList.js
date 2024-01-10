@@ -26,16 +26,16 @@ export default function MenuList() {
   
   return (
     <>
-      <section className="bg1 MenuList pd-common">
+      <section className="bg5 MenuList pd-common">
         <div className="container">
           <div
-            className="T1 text-center color-fff hfont"
+            className="T1 text-center hfont  color-theme"
             
           >
             Best Selling Products
           </div>
           <div
-            className="T2 text-center color-fff"
+            className="T2 text-center"
             
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
