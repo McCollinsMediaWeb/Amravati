@@ -27,6 +27,14 @@ export default function FooterBottom() {
               </Link>
             </li>
             <li className="">
+            <Link href={"/menu"}>
+              <div className="icon">
+                  <div className="FtrIconH call">&nbsp;</div>
+                </div>
+                <div className="text">Menu</div>
+              </Link>
+            </li>
+            <li className="">
             <Link href={"/catering"}>
                 <div className="icon">
                   <div className="FtrIconH reserve">&nbsp;</div>
@@ -34,6 +42,7 @@ export default function FooterBottom() {
                 <div className="text">Catering</div>
               </Link>
             </li>
+            
             <li>
               <a
                 href="#"
@@ -51,14 +60,6 @@ export default function FooterBottom() {
                   <div className="FtrIconH whatsapp">&nbsp;</div>
                 </div>
                 <div className="text">WhatsApp</div>
-              </a>
-            </li>
-            <li>
-              <a href="tel:+971525995503">
-                <div className="icon">
-                  <div className="FtrIconH call">&nbsp;</div>
-                </div>
-                <div className="text">Call Us</div>
               </a>
             </li>
           </ul>
