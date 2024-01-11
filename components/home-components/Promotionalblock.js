@@ -5,7 +5,7 @@ import useMediaQuery from "@/hooks/useMediaQuery";
 export default function PromotionalBlock() {
   const isDesktop = useMediaQuery("(min-width: 960px)");
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
