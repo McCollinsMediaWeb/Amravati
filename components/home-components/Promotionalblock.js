@@ -26,7 +26,7 @@ export default function PromotionalBlock() {
 
   return (
     <>
-      <section className="bgnew1 promotionalBlock">
+      <section className="bgnew1 promotionalBlock pd-common pb-0">
         <div className="container">
         {isDesktop && (
           <div className="GallerySlider1">

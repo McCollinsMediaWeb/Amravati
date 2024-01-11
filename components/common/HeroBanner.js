@@ -2,32 +2,80 @@ import Image from "next/image";
 import Link from "next/link";
 
 import useMediaQuery from "@/hooks/useMediaQuery";
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
+import Slider from "react-slick";
 export default function HeroBanner() {
   const isDesktop = useMediaQuery("(min-width: 960px)");
- 
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    fade: true
+  };
   return (
     <>
       <div>
         <div className="SliderImage">
-        {isDesktop && (
-          <Image
-            src="/hero.jpg"
-            layout="fill"
-            priority={true}
-            className="MainBanner DImage"
-          />
+          {isDesktop && (
+            <Slider {...settings}>
+              <div>
+                <div className="position-relative">
+                  <Image
+                    src="/hero.jpg"
+                    layout="responsive"
+                    height={"790"}
+                    width={"1440"}
+                    priority={true}
+                    className="MainBanner"
+                  />
+                </div>
+              </div>
+              <div>
+                <div className="position-relative">
+                  <Image
+                    src="/hero1.jpg"
+                    layout="responsive"
+                    height={"790"}
+                    width={"1440"}
+                    priority={true}
+                    className="MainBanner"
+                  />
+                </div>
+              </div>
+            </Slider>
           )}
-      {!isDesktop && (
-          <Image
-          src="/heromobile.jpg"
-          layout="responsive"
-          height={"790"}
-          width={"720"}
-          priority={true}
-          className="MainBanner"
-        />
-      )}
+          {!isDesktop && (
+            <Slider {...settings}>
+              <div>
+                <div className="position-relative">
+                  <Image
+                    src="/heromobile.jpg"
+                    layout="responsive"
+                    height={"790"}
+                    width={"720"}
+                    priority={true}
+                    className="MainBanner"
+                  />
+                </div>
+              </div>
+              <div>
+                <div className="position-relative">
+                  <Image
+                    src="/heromobile1.jpg"
+                    layout="responsive"
+                    height={"790"}
+                    width={"720"}
+                    priority={true}
+                    className="MainBanner"
+                  />
+                </div>
+              </div>
+            </Slider>
+          )}
           <div className="SliderImageContent">
             <div className="ContentBox">
               <div className="HrT1 hfont">A Celebration of Tradition</div>

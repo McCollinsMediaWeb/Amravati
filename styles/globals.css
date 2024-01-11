@@ -368,7 +368,13 @@ footer {
     align-items: end;
     justify-content: center;
     text-align: center;
-    padding: 80px 40px;
+    padding: 100px 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.SliderImage .position-relative{
+  margin-bottom: -5px;
 }
 .HrT1{
     font-size: 50px;
@@ -439,9 +445,7 @@ text-transform: capitalize;
     background-color: rgba(0,0,0,0.2);
     border-radius: 25px;
   }
-  .promotionalBlock{
-    padding-top: 30px;
-  }
+  
   .PromotionalBlockContent{
     position: absolute;
     left: 0;
@@ -1226,6 +1230,7 @@ max-width: 20%;
   background-image: url(../public/bgnew1.jpg);
   background-size: 100% 100%;
 }
+
 @keyframes leaves {
   0% {
       transform: scale(1.0);
@@ -1461,6 +1466,10 @@ max-width: 20%;
   }
   .InstraaLftBoxR {
     font-size: 24px;
+  }
+  .promotionalBlock {
+    padding: 0 !important;
+    margin-top: -1px;
   }
   .InstaIcon {
     width: 25px;
