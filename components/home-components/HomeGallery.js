@@ -33,7 +33,7 @@ export default function HomeGallery() {
   
   return (
     <>
-      <section className="bg5 pd-common HomeGallery">
+      <section className="bg6 pd-common HomeGallery">
         <div className="container">
           <div
             className="HmT1 text-center hfont"

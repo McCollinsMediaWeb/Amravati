@@ -56,7 +56,7 @@ export default function PromotionalBlock() {
               <div className="ProMColumnBox">
                 <div className="PromotionalGrid">
                   <Image
-                    src="/p2.jpg"
+                    src="/p5.jpg"
                     layout="responsive"
                     height={"319"}
                     width={"476"}
@@ -126,7 +126,7 @@ export default function PromotionalBlock() {
               <div className="ProMColumnBox">
                 <div className="PromotionalGrid">
                   <Image
-                    src="/p2.jpg"
+                    src="/p5.jpg"
                     layout="responsive"
                     height={"319"}
                     width={"476"}

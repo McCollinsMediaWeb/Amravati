@@ -921,9 +921,7 @@ background-color: #9F1917;
 .TestimonilSlider .slick-next, .TestimonilSlider .slick-prev{
 display: none !important;
 }
-.TestimonialBoxWrap{
-  border: 2px solid #e4e4e4;
-}
+
 .PageHeaderWrap{
   position: relative;
 
@@ -1203,7 +1201,7 @@ max-width: 20%;
   background-size: 100% 100%;
 }
 .bg5n{
-  background-image: url(../public/bg5n.jpg);
+  background-image: url(../public/bg5.jpg);
   background-size: 100% 100%;
 }
 .bg55{
