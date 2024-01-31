@@ -28,10 +28,167 @@ export default function PromotionalBlock() {
     <>
       <section className="bgnew2 promotionalBlock pd-common">
         <div className="container">
-        {isDesktop && (
-          <div className="GallerySlider1">
-            <Slider {...settings}>
-              <div className="ProMColumnBox">
+          {isDesktop && (
+            <div className="GallerySlider1">
+              <Slider {...settings}>
+                <div className="ProMColumnBox">
+                  <div className="PromotionalGrid">
+                    <Image
+                      src="/p1.jpg"
+                      layout="responsive"
+                      height={"319"}
+                      width={"476"}
+                      priority={true}
+                      className=""
+                    />
+                    <div className="PromotionalBlockContent">
+                      <div>
+                        <div className="PbT1 hfont">
+                          Offers <br />
+                          25% OFF
+                        </div>
+                        <div className="PbT2">ON FIRST PURCHASE</div>
+                        <a href="#" className="color1">
+                          View Menu
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="ProMColumnBox">
+                  <div className="PromotionalGrid">
+                    <Image
+                      src="/p5.jpg"
+                      layout="responsive"
+                      height={"319"}
+                      width={"476"}
+                      priority={true}
+                      className=""
+                    />
+                    <div className="PromotionalBlockContent">
+                      <div>
+                        <div className="PbT1 hfont">
+                          Weekend
+                          <br />
+                          Special
+                        </div>
+                        <div className="PbT2">ON FIRST PURCHASE</div>
+                        <a href="#" className="color2">
+                          View Menu
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="ProMColumnBox">
+                  <div className="PromotionalGrid">
+                    <Image
+                      src="/p3.jpg"
+                      layout="responsive"
+                      height={"319"}
+                      width={"476"}
+                      priority={true}
+                      className=""
+                    />
+                    <div className="PromotionalBlockContent">
+                      <div>
+                        <div className="PbT1 hfont">
+                          Sea Food
+                          <br />
+                          Special
+                        </div>
+                        <div className="PbT2">
+                          <span className="sfont">20%</span> Offers
+                        </div>
+                        <a href="#" className="color3">
+                          View Menu
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="ProMColumnBox">
+                  <div className="PromotionalGrid">
+                    <Image
+                      src="/p1.jpg"
+                      layout="responsive"
+                      height={"319"}
+                      width={"476"}
+                      priority={true}
+                      className=""
+                    />
+                    <div className="PromotionalBlockContent">
+                      <div>
+                        <div className="PbT1 hfont">
+                          Offers <br />
+                          25% OFF
+                        </div>
+                        <div className="PbT2">ON FIRST PURCHASE</div>
+                        <a href="#" className="color1">
+                          View Menu
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="ProMColumnBox">
+                  <div className="PromotionalGrid">
+                    <Image
+                      src="/p5.jpg"
+                      layout="responsive"
+                      height={"319"}
+                      width={"476"}
+                      priority={true}
+                      className=""
+                    />
+                    <div className="PromotionalBlockContent">
+                      <div>
+                        <div className="PbT1 hfont">
+                          Weekend
+                          <br />
+                          Special
+                        </div>
+                        <div className="PbT2">ON FIRST PURCHASE</div>
+                        <a href="#" className="color2">
+                          View Menu
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="ProMColumnBox">
+                  <div className="PromotionalGrid">
+                    <Image
+                      src="/p3.jpg"
+                      layout="responsive"
+                      height={"319"}
+                      width={"476"}
+                      priority={true}
+                      className=""
+                    />
+                    <div className="PromotionalBlockContent">
+                      <div>
+                        <div className="PbT1 hfont">
+                          Sea Food
+                          <br />
+                          Special
+                        </div>
+                        <div className="PbT2">
+                          <span className="sfont">20%</span> Offers
+                        </div>
+                        <a href="#" className="color3">
+                          View Menu
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Slider>
+            </div>
+          )}
+          {!isDesktop && (
+            <div className="row">
+              <div className="col-md-4">
                 <div className="PromotionalGrid">
                   <Image
                     src="/p1.jpg"
@@ -53,10 +210,10 @@ export default function PromotionalBlock() {
                   </div>
                 </div>
               </div>
-              <div className="ProMColumnBox">
+              <div className="col-md-4">
                 <div className="PromotionalGrid">
                   <Image
-                    src="/p5.jpg"
+                    src="/p2.jpg"
                     layout="responsive"
                     height={"319"}
                     width={"476"}
@@ -76,7 +233,7 @@ export default function PromotionalBlock() {
                   </div>
                 </div>
               </div>
-              <div className="ProMColumnBox">
+              <div className="col-md-4">
                 <div className="PromotionalGrid">
                   <Image
                     src="/p3.jpg"
@@ -101,152 +258,7 @@ export default function PromotionalBlock() {
                   </div>
                 </div>
               </div>
-              <div className="ProMColumnBox">
-                <div className="PromotionalGrid">
-                  <Image
-                    src="/p1.jpg"
-                    layout="responsive"
-                    height={"319"}
-                    width={"476"}
-                    priority={true}
-                    className=""
-                  />
-                  <div className="PromotionalBlockContent">
-                    <div className="PbT1 hfont">
-                      Offers <br />
-                      25% OFF
-                    </div>
-                    <div className="PbT2">ON FIRST PURCHASE</div>
-                    <a href="#" className="color1">
-                      View Menu
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="ProMColumnBox">
-                <div className="PromotionalGrid">
-                  <Image
-                    src="/p5.jpg"
-                    layout="responsive"
-                    height={"319"}
-                    width={"476"}
-                    priority={true}
-                    className=""
-                  />
-                  <div className="PromotionalBlockContent">
-                    <div className="PbT1 hfont">
-                      Weekend
-                      <br />
-                      Special
-                    </div>
-                    <div className="PbT2">ON FIRST PURCHASE</div>
-                    <a href="#" className="color2">
-                      View Menu
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="ProMColumnBox">
-                <div className="PromotionalGrid">
-                  <Image
-                    src="/p3.jpg"
-                    layout="responsive"
-                    height={"319"}
-                    width={"476"}
-                    priority={true}
-                    className=""
-                  />
-                  <div className="PromotionalBlockContent">
-                    <div className="PbT1 hfont">
-                      Sea Food
-                      <br />
-                      Special
-                    </div>
-                    <div className="PbT2">
-                      <span className="sfont">20%</span> Offers
-                    </div>
-                    <a href="#" className="color3">
-                      View Menu
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </Slider>
-          </div>
-)}
-{!isDesktop && (
-          <div className="row">
-            <div className="col-md-4">
-              <div className="PromotionalGrid">
-                <Image
-                  src="/p1.jpg"
-                  layout="responsive"
-                  height={"319"}
-                  width={"476"}
-                  priority={true}
-                  className=""
-                />
-                <div className="PromotionalBlockContent">
-                  <div className="PbT1 hfont">
-                    Offers <br />
-                    25% OFF
-                  </div>
-                  <div className="PbT2">ON FIRST PURCHASE</div>
-                  <a href="#" className="color1">
-                    View Menu
-                  </a>
-                </div>
-              </div>
             </div>
-            <div className="col-md-4">
-              <div className="PromotionalGrid">
-                <Image
-                  src="/p2.jpg"
-                  layout="responsive"
-                  height={"319"}
-                  width={"476"}
-                  priority={true}
-                  className=""
-                />
-                <div className="PromotionalBlockContent">
-                  <div className="PbT1 hfont">
-                    Weekend
-                    <br />
-                    Special
-                  </div>
-                  <div className="PbT2">ON FIRST PURCHASE</div>
-                  <a href="#" className="color2">
-                    View Menu
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="PromotionalGrid">
-                <Image
-                  src="/p3.jpg"
-                  layout="responsive"
-                  height={"319"}
-                  width={"476"}
-                  priority={true}
-                  className=""
-                />
-                <div className="PromotionalBlockContent">
-                  <div className="PbT1 hfont">
-                    Sea Food
-                    <br />
-                    Special
-                  </div>
-                  <div className="PbT2">
-                    <span className="sfont">20%</span> Offers
-                  </div>
-                  <a href="#" className="color3">
-                    View Menu
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
           )}
         </div>
       </section>
