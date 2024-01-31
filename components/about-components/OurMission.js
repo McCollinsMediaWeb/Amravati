@@ -50,7 +50,7 @@ export default function OurMission() {
               </div>
               <div className="col-md-7">
                 <div
-                  className="HmT1 hfont"
+                  className="HmT1 hfont mrt10"
                   data-aos="fade-up"
                   data-aos-duration="800"
                 >
