@@ -4,6 +4,7 @@ import CateringForm from "@/components/common/ReservationForm";
 import InstaBlock from "@/components/home-components/InstaBlock";
 import Testimonials from "@/components/home-components/Testimonials";
 import MenuList from "@/components/home-components/MenuList";
+import HomeGallery from "@/components/home-components/HomeGallery";
 export default function catering() {
   return (
     <>
@@ -12,7 +13,7 @@ export default function catering() {
       <PageHeader title="Book Catering"/>
       <CateringForm/>
       
-      <Testimonials/>
+      <HomeGallery/>
       <MenuList/>
       <InstaBlock/>
         </div>

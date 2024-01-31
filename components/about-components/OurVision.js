@@ -8,7 +8,7 @@ import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 
-export default function AboutAMV() {
+export default function OurVision() {
   const [open, setOpen] = useState(false);
   const settings = {
     dots: true,
@@ -43,7 +43,7 @@ export default function AboutAMV() {
                   data-aos-duration="800"
                 >
                   Discover the History of <br />
-                  Our Story
+                  Our Vision
                 </div>
                 <div
                   className="HmT2"

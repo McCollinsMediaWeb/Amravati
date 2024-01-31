@@ -8,7 +8,7 @@ import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 
-export default function AboutAMV() {
+export default function OurMission() {
   const [open, setOpen] = useState(false);
   const settings = {
     dots: true,
@@ -36,6 +36,18 @@ export default function AboutAMV() {
         <div className="container">
           <div className="DetBox1">
             <div className="row">
+            <div className="col-md-5">
+                <Image
+                data-aos="fade-up"
+                data-aos-duration="800"
+                  src="/g2.jpg"
+                  layout="responsive"
+                  height={"401"}
+                  width={"476"}
+                  priority={true}
+                  className=""
+                />
+              </div>
               <div className="col-md-7">
                 <div
                   className="HmT1 hfont"
@@ -43,7 +55,7 @@ export default function AboutAMV() {
                   data-aos-duration="800"
                 >
                   Discover the History of <br />
-                  Our Story
+                  Our Mission
                 </div>
                 <div
                   className="HmT2"
@@ -75,18 +87,7 @@ export default function AboutAMV() {
                   do
                 </div>
               </div>
-              <div className="col-md-5">
-                <Image
-                data-aos="fade-up"
-                data-aos-duration="800"
-                  src="/g1.jpg"
-                  layout="responsive"
-                  height={"401"}
-                  width={"476"}
-                  priority={true}
-                  className=""
-                />
-              </div>
+              
             </div>
           </div>
         </div>
