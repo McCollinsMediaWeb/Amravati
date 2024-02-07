@@ -39,17 +39,14 @@ export default function HomeGallery() {
             className="HmT1 text-center hfont"
             
           >
-            Discover the Delights of <br />
-            Fine Real Traditional Dining
+            The Amaravathi Difference,  <br />
+            Experience Fine Real Traditional Dining
           </div>
           <div
             className="HmT2 text-center"
             
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+           At Amaravathi, we redefine the art of fine dining through a lens of traditional and authentic experiences. We set the table allowing you to immerse yourself in the refined elegance of our culinary offerings, where every dish is a homage to the authentic flavours that have been the staples of every Andhra household for generations.
           </div>
           <div className="GallerySlider1" >
             <Slider {...settings}>

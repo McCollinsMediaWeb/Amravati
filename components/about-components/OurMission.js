@@ -54,37 +54,29 @@ export default function OurMission() {
                   data-aos="fade-up"
                   data-aos-duration="800"
                 >
-                  Discover the History of <br />
-                  Our Mission
+                  Fueling Flavorful Experiences: <br />
+                  Our Mission in Andhra Cuisine
                 </div>
                 <div
                   className="HmT2"
                   data-aos="fade-left"
                   data-aos-duration="800"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et
-                  
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do
+                  We're on a mission to redefine your dining delight. Join us for an adventure where every bite tells a story of tradition and innovation.
                 </div>
                 <div
                   className="HmT2"
                   data-aos="fade-left"
                   data-aos-duration="800"
                 >
-                  of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                  Our goal is simple: serve up more than just meals, but unforgettable experiences that leave your taste buds craving for more.
                 </div>
                 <div
                   className="HmT2"
                   data-aos="fade-left"
                   data-aos-duration="800"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et
-                  
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do
+                  We aim to be your go-to spot, not just a restaurant. Join us in our journey to make every flavour memorable, and every moment a celebration of our commitment to authentic Indian and Andhra cuisine. Let's savour the simplicity and richness of our mission together!
                 </div>
               </div>
               

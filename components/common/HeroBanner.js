@@ -78,9 +78,10 @@ export default function HeroBanner() {
           )}
           <div className="SliderImageContent">
             <div className="ContentBox">
-              <div className="HrT1 hfont">A Celebration of Tradition</div>
+              <div className="HrT1 hfont">Taste Tradition,<br/> One Flavour at a Time</div>
               <div className="HrT2">
-                Flavorsome spicy Chicken Biryani to enlighten your taste buds{" "}
+              Ready for More? Discover Our Full Menu Here
+{" "}
               </div>
               <div className="ContentBoxButtons">
                 <a href="#">Order Now</a>

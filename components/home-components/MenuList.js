@@ -32,15 +32,13 @@ export default function MenuList() {
             className="T1 text-center hfont  color-theme"
             
           >
-            Best Selling Products
+            Discover the Jewels of Andhra flavours
           </div>
           <div
             className="T2 text-center"
             
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do{" "}
+            Yearning for the authenticity of Andhra's culinary wonders? Amaravathi emerges as your ultimate destination for an artful plate of flavours. Immerse yourself in the irresistible allure of our spicy biryanis, captivating your senses with every aromatic bite. From the velvety richness of our mutton kurumas that beckon to be savoured, our best sellers have already captivated countless hearts.This is your opportunity to experience some of the town's most delectable delights.
           </div>
           <div className="slider1">
             <Slider {...settings}>

@@ -42,37 +42,30 @@ export default function OurVision() {
                   data-aos="fade-up"
                   data-aos-duration="800"
                 >
-                  Discover the History of <br />
-                  Our Vision
+                  Envisioning Culinary <br />
+                  Excellence
+
                 </div>
                 <div
                   className="HmT2"
                   data-aos="fade-left"
                   data-aos-duration="800"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et
-                  
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do
+                  On our journey forward, we envision a culinary realm where tradition and innovation dance in harmony. 
                 </div>
                 <div
                   className="HmT2"
                   data-aos="fade-left"
                   data-aos-duration="800"
                 >
-                  of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                 Picture an immersive experience where authentic Indian and Andhra flavours take centre stage, inviting you to explore the depths of our culinary and cultural heritage.
                 </div>
                 <div
                   className="HmT2"
                   data-aos="fade-left"
                   data-aos-duration="800"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et
-                  
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do
+                  Our vision extends beyond exquisite dishes; it's about creating moments, stories, and a legacy of taste that transcends time. Join us as we aspire to be the provides of authentic, heart warming dishes that evoke nostalgia into its tasters. Welcome to our vision, where the future of dining is a seamless fusion of tradition, innovation, and an unwavering commitment to creating memorable experiences. Together, let's savour the journey ahead.
                 </div>
               </div>
               <div className="col-md-5">

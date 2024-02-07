@@ -31,7 +31,7 @@ export default function Testimonials() {
           <div className="TestimonialHeader">
             <div className="row align-items-center">
               <div className="col-md-5">
-                <div className="RT2 hfont" >Food Lovers Feedback</div>
+                <div className="RT2 hfont" >Tasty Testimonials - Voices of Joy</div>
                 <div className="RT3" >
                   <div className="StarItems">
                     <div className="StarItem">&nbsp;</div>
@@ -44,10 +44,7 @@ export default function Testimonials() {
               </div>
               <div className="col-md-7">
                 <div className="RT1" >
-                  Words from Our Happy Customers: Discover the Delight of Dining
-                  with Us! At Amaravathi our passion is not only to serve
-                  exquisite dishes but to create unforgettable dining
-                  experiences.
+                Dive into the Delightful Experiences Shared by Our beloved Guests! At Amaravathi, we're not just about serving exquisite dishes; we're dedicated to crafting moments that linger in your memory long after the last bite. Join us in our passion for creating unforgettable dining journeys.
                 </div>
               </div>
             </div>

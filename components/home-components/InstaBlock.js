@@ -46,8 +46,7 @@ export default function InstaBlock() {
                   className="InT1"
                   
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+                  Your Culinary Journey Starts Here! Questions, feedback, or just sharing the love? We're here for you. Let's make your dining experience extraordinary together!
                 </div>
               </div>
             </div>

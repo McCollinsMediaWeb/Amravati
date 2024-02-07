@@ -37,17 +37,13 @@ export default function ContactUs() {
             className="HmT1 text-center hfont"
             
           >
-            Discover the Delights of <br />
-            Fine Real Traditional Dining
+           Savour the Spice, Taste the Tradition!
           </div>
           <div
             className="HmT2 text-center"
             
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            Welcome to Flavor Paradise: Amaravathi's Culinary Heaven Awaits! Here, each dish tells a story of tradition, innovation, and passion for authentic Andhra cuisine. From succulent meats to fresh vegetable delights, our menu offers a symphony of taste designed to delight your senses. Prepare to indulge in the bold spices and delicate flavours of our meticulously crafted dishes. Get ready to embark on a journey through our tantalising meat and vegetable options. Your culinary adventure begins now!
           </div>
               <div className="MenuSlidet1">
                 <Slider {...settings}>
