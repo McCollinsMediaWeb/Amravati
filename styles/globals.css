@@ -1600,7 +1600,9 @@ font-size: 17px;
     border-radius: 15px;
   }
 }
-
+.CateringAreas .row{
+  align-items: center;
+}
 
 .bgnew5{
   background-color: #FFF9F2;
