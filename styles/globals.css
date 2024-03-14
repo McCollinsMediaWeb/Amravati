@@ -1658,6 +1658,8 @@ font-size: 17px;
 }
 .TabT1 div{
   margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 1.5;
 }
 .CsnFooter img{
   background-color: transparent;
@@ -1750,5 +1752,9 @@ font-size: 17px;
   }
   .FT3{
     color: #212121;
+  }
+  .TabT1 div{
+    font-size: 16px;
+    line-height: 1.3;
   }
 }
