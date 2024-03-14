@@ -6,7 +6,7 @@ export default function ContactRow1(props) {
   
   return (
     <>
-      <section className="pd-common bg5">
+      <section className="pd-common bgnew5 pb-0">
         <div className="container">
           <div className="text-center">
             <div className="Ct11 hfont" >

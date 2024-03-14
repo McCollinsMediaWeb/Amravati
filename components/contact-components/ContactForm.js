@@ -42,7 +42,7 @@ const ContactForm = (props) => {
   };
 
   return (
-    <div className="pd-common ContactRow2 CatSeForm bg3">
+    <div className="pd-common ContactRow2 CatSeForm bgnew5">
       <div className="container">
         <div className="text-center">
           <div className="Ct11 hfont" data-aos="fade-up"

@@ -16,6 +16,7 @@ export default function aboutus() {
         <AboutAMV/>
         <HomeGallery/>
         <OurVision/>
+        <OurMission/>
         <div className="VideoSection pd-common bg5n">
           <div className="container">
             <video
@@ -31,8 +32,7 @@ export default function aboutus() {
             />
           </div>
         </div>
-        <HomeGallery/>
-        <OurMission/>
+        
         <Testimonials/>
         <InstaBlock/>
         

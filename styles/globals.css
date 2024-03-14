@@ -176,7 +176,7 @@ header{
 
 footer {
 
-    padding: 25px 0px;
+    padding: 50px 0px;
 }
 
 .FooterLogoWrap {
@@ -231,8 +231,8 @@ footer {
 }
 
 .FtrSocialIcon {
-    width: 25px;
-    height: 25px;
+    width: 23px;
+    height: 21px;
     display: inline-block;
     background-size: 100% 100%;
 }
@@ -1216,8 +1216,9 @@ max-width: 20%;
   background-size: 100% 100%;
 }
 .bg8{
-  background-image: url(../public/bg8.jpg);
-  background-size: 100% 100%;
+  /* background-image: url(../public/bg8.jpg);
+  background-size: 100% 100%; */
+  background: #FDFAF5;
 }
 .DImage{
   animation: leaves 20s ease-in-out infinite alternate;
@@ -1743,5 +1744,11 @@ font-size: 17px;
   }
   .CateringContent {
     margin-top: 20px;
+  }
+  footer {
+    padding: 20px 0px;
+  }
+  .FT3{
+    color: #212121;
   }
 }
