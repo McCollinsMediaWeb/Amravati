@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import ProductGrid from "../common/ProductGrid";
 export default function MenuList() {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 4,
@@ -26,7 +26,7 @@ export default function MenuList() {
   
   return (
     <>
-      <section className="bg5 MenuList pd-common">
+      <section className="bgnew6 MenuList pd-common">
         <div className="container">
           <div
             className="T1 text-center hfont  color-theme"

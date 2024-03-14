@@ -6,6 +6,7 @@ import OfferBox from "@/components/home-components/OfferBox";
 import HomeGallery from "@/components/home-components/HomeGallery";
 import InstaBlock from "@/components/home-components/InstaBlock";
 import Testimonials from "@/components/home-components/Testimonials";
+import OurCusines from "@/components/home-components/OurCusines";
 export default function Home() {
   return (
     <>
@@ -13,9 +14,10 @@ export default function Home() {
       <div>
         <HeroBanner/>
           <PromotionalBlock/>
-          <MenuList/>
+          <OurCusines/>
         <OfferBox/>
-        <HomeGallery/>
+        <MenuList/>
+        
         <Testimonials/>
         <InstaBlock/>
         </div>

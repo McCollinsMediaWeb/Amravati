@@ -26,7 +26,7 @@ export default function Testimonials() {
   
   return (
     <>
-      <section className="bg5n pd-common HomeGallery TestimonialBoxWrap">
+      <section className="bgnew5 pd-common HomeGallery TestimonialBoxWrap">
         <div className="container">
           <div className="TestimonialHeader">
             <div className="row align-items-center">

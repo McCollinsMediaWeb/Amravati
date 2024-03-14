@@ -175,21 +175,19 @@ header{
 }
 
 footer {
-    background-color: #9F1917;
-    color: #fff;
+
     padding: 25px 0px;
 }
 
 .FooterLogoWrap {
-    max-width: 55%;
-    margin-bottom: 15px;
-
+  max-width: 40%;
+  margin-bottom: 25px;
 }
 
 .FT2 {
     margin-top: 15px;
     display: block;
-    color: #fff;
+ 
     font-size: 19px;
     font-weight: 500;
     text-transform: capitalize;
@@ -199,7 +197,7 @@ footer {
 .FT3 {
     margin-bottom: 20px;
     display: block;
-    color: #fff;
+   
     font-size: 22px;
     font-weight: 500;
     text-transform: capitalize;
@@ -207,13 +205,14 @@ footer {
 }
 
 .FtrLinksWrap a {
-    color: #fff;
+    color: #000;
     display: inline-block;
     margin-bottom: 10px;
+    text-transform: capitalize;
 }
 
 .FtLnk1 a {
-    color: #fff;
+  color: #000;
     display: inline-block;
     margin-bottom: 10px;
 }
@@ -423,7 +422,7 @@ text-transform: capitalize;
     border-color: #fff;
   }
   .pd-common{
-    padding: 50px 0px;
+    padding: 60px 0px;
   }
   .bg1{
     background-color: #9F1917;
@@ -852,7 +851,7 @@ background-color: #9F1917;
 .Rv1 {
   font-weight: 500;
   font-style: normal;
-  color: #589507;
+  color: #9F1917;
   font-size: 17px;
   margin-bottom: 15px;
   line-height: 1;
@@ -911,7 +910,7 @@ background-color: #9F1917;
   margin-right: 10px;
 }
 .RT2{
-  color: #589507;
+  color: #9F1917;
   font-size: 35px;
   margin-bottom: 15px;
 }
@@ -1465,7 +1464,7 @@ align-items: center;
   .Rv1 {
     font-weight: 500;
     font-style: normal;
-    color: #589507;
+    color: #9F1917;
     font-size: 16px;
     margin-bottom: 10px;
     line-height: 1.2;
@@ -1599,4 +1598,68 @@ font-size: 17px;
   .DetBox1 .col-md-5 img{
     border-radius: 15px;
   }
+}
+
+
+.bgnew5{
+  background-color: #FDFAF5;
+}
+.MobCenter{
+  text-align: center;
+}
+.bgnew7{
+  background-color: #000;
+}
+.FooterLogoWrap img{
+  background-color: transparent;
+}
+.CsnT1{
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+.CsnT2{
+  font-size: 60px;
+  margin-bottom: 25px;
+}
+.TabsWarp{
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.TabsItems .TabsItem{
+  display: inline-block;
+  padding: 6px 20px;
+  color: #9F1917;
+  border: 1px solid #9F1917;
+  margin-right: 10px;
+  border-radius: 20px;
+  min-width: 160px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 20px;
+}
+.TabsItems .TabsItem:hover{
+  background-color: #9F1917;
+  color: #fff;
+}
+.TabsContent img{
+  background-color: transparent;
+  border-radius: 25px;
+}
+.CusionWrap .container{
+  max-width: 1300px;
+}
+.TabT1{
+
+}
+.TabT1 div{
+  margin-bottom: 10px;
+}
+.CsnFooter img{
+  background-color: transparent;
+}
+.CsnFooter{
+  margin-top: -80px;
 }

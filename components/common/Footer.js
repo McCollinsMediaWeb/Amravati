@@ -9,11 +9,11 @@ export default function Footer() {
             <div className="col-md-4">
               <div className="FooterLogoWrap">
                 <Link href={"/"}>
-                  <Image
-                    src="/footerlogo.png"
+                <Image
+                    src="/logo.png"
                     layout="responsive"
-                    height={"135"}
-                    width={"264"}
+                    height={"180"}
+                    width={"92"}
                     priority={true}
                     className=""
                   />
@@ -34,7 +34,7 @@ export default function Footer() {
                   <Link href={"/"}>Home</Link>
                 </div>
                 <div className="col-md-6">
-                  <Link href={"/aboutus"}>Aboutus</Link>
+                  <Link href={"/aboutus"}>About us</Link>
                 </div>
                 <div className="col-md-6">
                   <Link href={"/catering"}>Catering</Link>
