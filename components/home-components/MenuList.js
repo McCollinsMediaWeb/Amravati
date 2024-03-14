@@ -32,7 +32,7 @@ export default function MenuList() {
             className="T1 text-center hfont  color-theme"
             
           >
-            Discover the Jewels of Andhra flavours
+            Discover Our Menu
           </div>
           <div
             className="T2 text-center"

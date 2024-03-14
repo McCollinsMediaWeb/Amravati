@@ -1648,7 +1648,8 @@ font-size: 17px;
   background-color: transparent;
   border-radius: 25px;
 }
-.CusionWrap .container{
+.CusionWrap .container ,
+.CateringWrap .container{
   max-width: 1300px;
 }
 .TabT1{
@@ -1662,4 +1663,44 @@ font-size: 17px;
 }
 .CsnFooter{
   margin-top: -80px;
+}
+.CsnT3{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.CateringContent{
+  margin-top: 50px;
+}
+.CateringContent img{
+  background-color: transparent;
+}
+.CateringAreaTxt{
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.CateringAreaIcon{
+  background-size: 100% 100%;
+  width: 83px;
+  height: 82px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.CateringAreaIcon.one{
+  background-image: url(../public/cmp1.png);
+}
+.CateringAreaIcon.two{
+  background-image: url(../public/cmp2.png);
+}
+.CateringAreaIcon.three{
+  background-image: url(../public/cmp3.png);
+}
+.CateringAreaIcon.four{
+  background-image: url(../public/cmp4.png);
+}
+.CateringAreaIcon.five{
+  background-image: url(../public/cmp5.png);
+}
+.CateringAreaIcon.six{
+  background-image: url(../public/cmp6.png);
 }

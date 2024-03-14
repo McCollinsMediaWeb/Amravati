@@ -7,6 +7,7 @@ import HomeGallery from "@/components/home-components/HomeGallery";
 import InstaBlock from "@/components/home-components/InstaBlock";
 import Testimonials from "@/components/home-components/Testimonials";
 import OurCusines from "@/components/home-components/OurCusines";
+import CateringBox from "@/components/home-components/CateringBox";
 export default function Home() {
   return (
     <>
@@ -17,7 +18,7 @@ export default function Home() {
           <OurCusines/>
         <OfferBox/>
         <MenuList/>
-        
+        <CateringBox/>
         <Testimonials/>
         <InstaBlock/>
         </div>
