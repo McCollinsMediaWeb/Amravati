@@ -1704,3 +1704,44 @@ font-size: 17px;
 .CateringAreaIcon.six{
   background-image: url(../public/cmp6.png);
 }
+
+@media only screen and (max-width: 1000px) {
+  .CsnT1 {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  .CsnT2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .TabsItems .TabsItem {
+    padding: 6px 15px;
+    margin-right: 5px;
+    min-width: auto;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .TabsWarp{
+    margin-bottom: 15px;
+  }
+  .CsnFooter {
+    margin-top: 0;
+  }
+  .CateringAreas .col-md-4{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+  .CateringAreaIcon {
+    width: 55px;
+    height: 54px;
+    margin-bottom: 10px;
+  }
+  .CateringAreaTxt {
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .CateringContent {
+    margin-top: 20px;
+  }
+}
