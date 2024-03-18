@@ -8,7 +8,7 @@ export default function CateringBox() {
   
   return (
     <>
-      <section className="pd-common bgnew5 pb-0">
+      <section className="pd-common bgnew5">
         <div className="CateringWrap">
             <div className="container">
                 <div className="CsnT2 text-center color-theme hfont">Catering</div>
