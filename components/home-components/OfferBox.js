@@ -13,7 +13,7 @@ export default function OfferBox() {
          
           {isDesktop && (
            <Image
-           src="/horo3.jpg"
+           src="/horo4.jpg"
            layout="responsive"
            height={"534"}
            width={"1440"}
@@ -23,7 +23,7 @@ export default function OfferBox() {
           )}
       {!isDesktop && (
           <Image
-          src="/hk.jpg"
+          src="/hk1.jpg"
           layout="responsive"
           height={"790"}
           width={"720"}
