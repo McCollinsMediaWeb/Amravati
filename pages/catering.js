@@ -5,6 +5,7 @@ import InstaBlock from "@/components/home-components/InstaBlock";
 import Testimonials from "@/components/home-components/Testimonials";
 import MenuList from "@/components/home-components/MenuList";
 import HomeGallery from "@/components/home-components/HomeGallery";
+import CateringBox from "@/components/home-components/CateringBox";
 export default function catering() {
   return (
     <>
@@ -13,8 +14,7 @@ export default function catering() {
       <PageHeader title="Book Catering"/>
       <CateringForm/>
       
-      <HomeGallery/>
-      <MenuList/>
+      <CateringBox/>
       <InstaBlock/>
         </div>
     </>

@@ -53,7 +53,7 @@ export default function HomeGallery() {
               <div>
                 <div className="GelleryItem" onClick={() => setOpen(true)}>
                   <Image
-                    src="/g1.jpg"
+                    src="/gg1.jpg"
                     layout="responsive"
                     height={"401"}
                     width={"476"}
@@ -65,7 +65,7 @@ export default function HomeGallery() {
               <div>
                 <div className="GelleryItem" onClick={() => setOpen(true)}>
                   <Image
-                    src="/g2.jpg"
+                    src="/gg2.jpg"
                     layout="responsive"
                     height={"401"}
                     width={"476"}
@@ -77,7 +77,7 @@ export default function HomeGallery() {
               <div>
                 <div className="GelleryItem" onClick={() => setOpen(true)}>
                   <Image
-                    src="/g3.jpg"
+                    src="/gg3.jpg"
                     layout="responsive"
                     height={"401"}
                     width={"476"}
@@ -89,7 +89,7 @@ export default function HomeGallery() {
               <div>
                 <div className="GelleryItem" onClick={() => setOpen(true)}>
                   <Image
-                    src="/g1.jpg"
+                    src="/gg4.jpg"
                     layout="responsive"
                     height={"401"}
                     width={"476"}
@@ -101,7 +101,7 @@ export default function HomeGallery() {
               <div>
                 <div className="GelleryItem" onClick={() => setOpen(true)}>
                   <Image
-                    src="/g2.jpg"
+                    src="/gg1.jpg"
                     layout="responsive"
                     height={"401"}
                     width={"476"}
@@ -113,7 +113,7 @@ export default function HomeGallery() {
               <div>
                 <div className="GelleryItem" onClick={() => setOpen(true)}>
                   <Image
-                    src="/g3.jpg"
+                    src="/gg2.jpg"
                     layout="responsive"
                     height={"401"}
                     width={"476"}
@@ -128,15 +128,15 @@ export default function HomeGallery() {
           close={() => setOpen(false)}
           plugins={[Thumbnails]}
           slides={[
-            { src: "/g1.jpg" },
-            { src: "/g2.jpg" },
-            { src: "/g3.jpg" },
-            { src: "/g1.jpg" },
-            { src: "/g2.jpg" },
-            { src: "/g3.jpg" },
-            { src: "/g1.jpg" },
-            { src: "/g2.jpg" },
-            { src: "/g3.jpg" },
+            { src: "/gg1.jpg" },
+            { src: "/gg2.jpg" },
+            { src: "/gg3.jpg" },
+            { src: "/gg4.jpg" },
+            { src: "/gg2.jpg" },
+            { src: "/gg3.jpg" },
+            { src: "/gg1.jpg" },
+            { src: "/gg2.jpg" },
+            { src: "/gg3.jpg" },
             
           ]}
         />

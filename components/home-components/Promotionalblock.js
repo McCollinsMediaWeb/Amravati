@@ -34,7 +34,7 @@ export default function PromotionalBlock() {
                 <div className="ProMColumnBox">
                   <div className="PromotionalGrid">
                     <Image
-                      src="/p1.jpg"
+                      src="/pp1.jpg"
                       layout="responsive"
                       height={"319"}
                       width={"476"}
@@ -58,7 +58,7 @@ export default function PromotionalBlock() {
                 <div className="ProMColumnBox">
                   <div className="PromotionalGrid">
                     <Image
-                      src="/p5.jpg"
+                      src="/pp2.jpg"
                       layout="responsive"
                       height={"319"}
                       width={"476"}
@@ -83,7 +83,7 @@ export default function PromotionalBlock() {
                 <div className="ProMColumnBox">
                   <div className="PromotionalGrid">
                     <Image
-                      src="/p3.jpg"
+                      src="/pp3.jpg"
                       layout="responsive"
                       height={"319"}
                       width={"476"}
@@ -110,7 +110,7 @@ export default function PromotionalBlock() {
                 <div className="ProMColumnBox">
                   <div className="PromotionalGrid">
                     <Image
-                      src="/p1.jpg"
+                      src="/pp2.jpg"
                       layout="responsive"
                       height={"319"}
                       width={"476"}
@@ -134,7 +134,7 @@ export default function PromotionalBlock() {
                 <div className="ProMColumnBox">
                   <div className="PromotionalGrid">
                     <Image
-                      src="/p5.jpg"
+                      src="/pp1.jpg"
                       layout="responsive"
                       height={"319"}
                       width={"476"}
@@ -159,7 +159,7 @@ export default function PromotionalBlock() {
                 <div className="ProMColumnBox">
                   <div className="PromotionalGrid">
                     <Image
-                      src="/p3.jpg"
+                      src="/pp2.jpg"
                       layout="responsive"
                       height={"319"}
                       width={"476"}
@@ -191,7 +191,7 @@ export default function PromotionalBlock() {
               <div className="col-md-4">
                 <div className="PromotionalGrid">
                   <Image
-                    src="/p1.jpg"
+                    src="/pp1.jpg"
                     layout="responsive"
                     height={"319"}
                     width={"476"}
@@ -213,7 +213,7 @@ export default function PromotionalBlock() {
               <div className="col-md-4">
                 <div className="PromotionalGrid">
                   <Image
-                    src="/p2.jpg"
+                    src="/pp2.jpg"
                     layout="responsive"
                     height={"319"}
                     width={"476"}
@@ -236,7 +236,7 @@ export default function PromotionalBlock() {
               <div className="col-md-4">
                 <div className="PromotionalGrid">
                   <Image
-                    src="/p3.jpg"
+                    src="/pp3.jpg"
                     layout="responsive"
                     height={"319"}
                     width={"476"}

@@ -52,9 +52,9 @@ export default function OfferBox() {
                 On Dine in
               </div>
               <div >
-                <a href="javascript:void(0)" className="OfferT3">
-                    Order Now
-                </a>
+                <Link href="ifthar-menu.pdf" className="OfferT3" target="_blank">
+                   View Menu
+                </Link>
               </div>
             </div>
           </div>

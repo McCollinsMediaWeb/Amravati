@@ -37,7 +37,7 @@ export default function HeroBanner() {
               <div>
                 <div className="position-relative">
                   <Image
-                    src="/hero1.jpg"
+                    src="/nhero.jpg"
                     layout="responsive"
                     height={"790"}
                     width={"1440"}
@@ -65,7 +65,7 @@ export default function HeroBanner() {
               <div>
                 <div className="position-relative">
                   <Image
-                    src="/heromobile1.jpg"
+                    src="/heromobile.jpg"
                     layout="responsive"
                     height={"790"}
                     width={"720"}
