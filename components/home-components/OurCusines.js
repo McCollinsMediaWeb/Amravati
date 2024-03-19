@@ -11,17 +11,21 @@ export default function OurCusines() {
       <section className="pd-common pb-0">
         <div className="CusionWrap">
             <div className="container">
-                <div className="CsnT1 text-center">Our Cuisines</div>
-                <div className="CsnT2 text-center color-theme hfont">Dining</div>
+                <div className="CsnT1 text-center">Discover Our</div>
+                <div className="CsnT2 text-center color-theme hfont">Menu</div>
                 <div className="TabsWarp">
                     <div className="TabsItems">
-                        <div className="TabsItem">North Indian</div>
-                        <div className="TabsItem">South Indian</div>
-                        <div className="TabsItem">Tandoor Se</div>
+                        <div className="TabsItem">Soups</div>
+                        <div className="TabsItem">Appetizers</div>
+                        <div className="TabsItem">Thali</div>
+                        <div className="TabsItem">Biriyani / Pulavu</div>
+                        <div className="TabsItem">Main Course</div>
                         <div className="TabsItem">Chinese</div>
-                        <div className="TabsItem">Continental</div>
-                        <div className="TabsItem">Salads</div>
-                        <div className="TabsItem">Season Special</div>
+                        <div className="TabsItem">Bread Basket</div>
+                        <div className="TabsItem">Beverages</div>
+                        <div className="TabsItem">Juices</div>
+                        <div className="TabsItem">Shakes</div>
+                        <div className="TabsItem">Desserts</div>
                     </div>
                 </div>
                 <div className="TabsContent">

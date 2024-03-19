@@ -37,7 +37,7 @@ export default function OfferBox() {
                 className="OfferT1"
                 
               >
-                Discount
+                Ramadan Menu
               </div>
               <div
                 className="OfferT2 hfont"
