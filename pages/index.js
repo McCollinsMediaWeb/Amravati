@@ -17,7 +17,7 @@ export default function Home() {
           <PromotionalBlock/>
           <OurCusines/>
         <OfferBox/>
-        <MenuList/>
+        {/* <MenuList/> */}
         <CateringBox/>
         
         <InstaBlock/>
