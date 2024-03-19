@@ -84,8 +84,9 @@ export default function HeroBanner() {
 {" "}
               </div>
               <div className="ContentBoxButtons">
-                <a href="#">Order Now</a>
+                
                 <Link href={"/menu"}>View Menu</Link>
+                <a href="#">Order Now</a>
               </div>
             </div>
           </div>
