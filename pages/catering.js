@@ -12,9 +12,10 @@ export default function catering() {
       
       <div>
       <PageHeader title="Book Catering"/>
+      <CateringBox/>
       <CateringForm/>
       
-      <CateringBox/>
+      
       <InstaBlock/>
         </div>
     </>

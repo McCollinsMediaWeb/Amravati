@@ -83,7 +83,7 @@ export default function App({ Component, pageProps }) {
           <meta name="theme-color" content="#9F1917"></meta>
         </Head>
         <Header/>
-        <Loading />
+        
         <Component {...pageProps} />
         <Footer/>
         <FooterBottom/>

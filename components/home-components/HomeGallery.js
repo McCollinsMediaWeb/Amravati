@@ -65,7 +65,7 @@ export default function HomeGallery() {
               <div>
                 <div className="GelleryItem" onClick={() => setOpen(true)}>
                   <Image
-                    src="/gg2.jpg"
+                    src="/ggg1.jpg"
                     layout="responsive"
                     height={"401"}
                     width={"476"}
@@ -77,7 +77,7 @@ export default function HomeGallery() {
               <div>
                 <div className="GelleryItem" onClick={() => setOpen(true)}>
                   <Image
-                    src="/gg3.jpg"
+                    src="/ggg2.jpg"
                     layout="responsive"
                     height={"401"}
                     width={"476"}
@@ -89,7 +89,7 @@ export default function HomeGallery() {
               <div>
                 <div className="GelleryItem" onClick={() => setOpen(true)}>
                   <Image
-                    src="/gg4.jpg"
+                    src="/ggg3.jpg"
                     layout="responsive"
                     height={"401"}
                     width={"476"}
@@ -113,7 +113,7 @@ export default function HomeGallery() {
               <div>
                 <div className="GelleryItem" onClick={() => setOpen(true)}>
                   <Image
-                    src="/gg2.jpg"
+                    src="/gg3.jpg"
                     layout="responsive"
                     height={"401"}
                     width={"476"}

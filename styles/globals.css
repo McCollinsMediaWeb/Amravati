@@ -1041,6 +1041,7 @@ opacity: 0.6;
   padding: 20px;
   background-color: #fff;
   text-align: left;
+  min-height: 140px;
 }
 .cItemHd {
   position: relative;
@@ -1643,7 +1644,8 @@ font-size: 17px;
   transition: 0.5s;
   font-size: 20px;
 }
-.TabsItems .TabsItem:hover{
+.TabsItems .TabsItem:hover,
+.TabsItems .TabsItem.active-tabs{
   background-color: #9F1917;
   color: #fff;
 }

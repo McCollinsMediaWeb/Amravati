@@ -32,7 +32,7 @@ export default function ContactRow1(props) {
                             <span className="Cicon whatsapp">&nbsp;</span>
                           </div>
                           <div className="cItemCntR transition1 sfont">
-                            +971-525995503
+                          +971 5515 46699
                           </div>
                         </div>
                       </a>
@@ -53,7 +53,7 @@ export default function ContactRow1(props) {
                             <span className="Cicon call">&nbsp;</span>
                           </div>
                           <div className="cItemCntR transition1 sfont">
-                            +971-525995503
+                          04 3460664
                           </div>
                         </div>
                       </a>
@@ -74,7 +74,7 @@ export default function ContactRow1(props) {
                             <span className="Cicon email">&nbsp;</span>
                           </div>
                           <div className="cItemCntR transition1">
-                            ijas@mccollinsmedia.com
+                          uae.amaravathi@gmail.com
                           </div>
                         </div>
                       </a>
@@ -95,7 +95,8 @@ export default function ContactRow1(props) {
                             <span className="Cicon location">&nbsp;</span>
                           </div>
                           <div className="cItemCntR transition1">
-                            Amravathi Hotel
+                          
+Al Karama, Adjacent To Day-To-Day, Near ADCB Metro Station
                           </div>
                         </div>
                       </a>
