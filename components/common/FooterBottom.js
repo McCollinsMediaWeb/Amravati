@@ -9,7 +9,7 @@ export default function FooterBottom() {
           <div className="FooterBottom">
             <div>© <span className="sfont">2024</span> Amaravathi. All Rights Reserved.</div>
             <div>
-              <a href="https://www.mccollinsmedia.com/" target="_blank">Designed & Developed by McCollins</a>
+              <a href="https://www.mccollinsmedia.com/" target="_blank">Designed & Developed by McCollins Media</a>
             </div>
           </div>
         </div>
